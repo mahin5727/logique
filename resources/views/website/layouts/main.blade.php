@@ -60,10 +60,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
-                        <a href="{{route('home')}}" class="nav-item nav-link active">Home</a>
-                        <a href="{{route('about')}}" class="nav-item nav-link">About</a>
-                        <a href="{{route('team')}}" class="nav-item nav-link">Team</a>
-                        <div class="nav-item dropdown">
+                        <a href="{{route('home')}}" class="nav-item nav-link {{Route::Is('home') ? 'active' : ''}}">Home</a>
+                        <a href="{{route('about')}}" class="nav-item nav-link {{Route::Is('about') ? 'active' : ''}}">About</a>
+                        <a href="{{route('team')}}" class="nav-item nav-link {{Route::Is('team') ? 'active' : ''}}">Team</a>
+                        {{-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Property</a>
                             <div class="dropdown-menu rounded-0 m-0">
                                 <a href="property-list.html" class="dropdown-item">Property List</a>
@@ -77,7 +77,7 @@
                                 <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                                 <a href="404.html" class="dropdown-item">404 Error</a>
                             </div>
-                        </div>
+                        </div> --}}
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
                     <a href="" class="btn btn-custom px-3 d-none d-lg-flex">Add Property</a>

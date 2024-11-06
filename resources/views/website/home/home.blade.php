@@ -54,7 +54,7 @@
         <!-- About End -->
 
         <!-- Category Start -->
-        <div class="container-xxl bg-dark-theme text-white py-5">
+        <div class="container-xxl bg-dark-theme text-white mb-5 py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <h1 class="mb-3 text-dark-custom">Our Services</h1>
@@ -78,9 +78,9 @@
                             <div class="rounded bg-dark-theme p-4">
                                 <div class="icon bg-dark-theme bg-dark mb-3">
                                     <!-- <img class="img-fluid" src="img/icon-apartment.png" alt="Icon"> -->
-                                    <i class="fa fa-desktop-alt text-light fa-3x"></i>
+                                    <i class="fa fa-chart-bar text-light fa-3x"></i>
                                 </div>
-                                <h6 class="text-light">WEB DEVELOPMENT</h6>
+                                <h6 class="text-light">SEO</h6>
                                 <!-- <span>Our experienced web developers combine their technical...</span> -->
                             </div>
                         </a>
@@ -90,9 +90,9 @@
                             <div class="rounded bg-dark-theme p-4">
                                 <div class="icon bg-dark-theme bg-dark mb-3">
                                     <!-- <img class="img-fluid" src="img/icon-apartment.png" alt="Icon"> -->
-                                    <i class="fa fa-desktop-alt text-light fa-3x"></i>
+                                    <i class="fab fa-shopify text-light fa-3x"></i>
                                 </div>
-                                <h6 class="text-light">WEB DEVELOPMENT</h6>
+                                <h6 class="text-light">SHOPIFY</h6>
                                 <!-- <span>Our experienced web developers combine their technical...</span> -->
                             </div>
                         </a>
@@ -102,9 +102,9 @@
                             <div class="rounded bg-dark-theme p-4">
                                 <div class="icon bg-dark-theme bg-dark mb-3">
                                     <!-- <img class="img-fluid" src="img/icon-apartment.png" alt="Icon"> -->
-                                    <i class="fa fa-desktop-alt text-light fa-3x"></i>
+                                    <i class="fa fa-code text-light fa-3x"></i>
                                 </div>
-                                <h6 class="text-light">WEB DEVELOPMENT</h6>
+                                <h6 class="text-light">API INTEGRATION</h6>
                                 <!-- <span>Our experienced web developers combine their technical...</span> -->
                             </div>
                         </a>
@@ -114,9 +114,9 @@
                             <div class="rounded bg-dark-theme p-4">
                                 <div class="icon bg-dark-theme bg-dark mb-3">
                                     <!-- <img class="img-fluid" src="img/icon-apartment.png" alt="Icon"> -->
-                                    <i class="fa fa-desktop-alt text-light fa-3x"></i>
+                                    <i class="fas fa-swatchbook text-light fa-3x"></i>
                                 </div>
-                                <h6 class="text-light">WEB DEVELOPMENT</h6>
+                                <h6 class="text-light">WEB DESIGN</h6>
                                 <!-- <span>Our experienced web developers combine their technical...</span> -->
                             </div>
                         </a>
@@ -128,7 +128,7 @@
                                     <!-- <img class="img-fluid" src="img/icon-apartment.png" alt="Icon"> -->
                                     <i class="fa fa-desktop-alt text-light fa-3x"></i>
                                 </div>
-                                <h6 class="text-light">WEB DEVELOPMENT</h6>
+                                <h6 class="text-light">OFFICE AUTOMATION</h6>
                                 <!-- <span>Our experienced web developers combine their technical...</span> -->
                             </div>
                         </a>
@@ -167,9 +167,9 @@
 
 
         <!-- Property List Start -->
-        <div class="container-xxl bg-dark-theme text-white py-5">
-            <div class="container">
-                <div class="row g-0 gx-5 align-items-end">
+        <div class="container-xxl bg-dark-theme text-white mt-5 py-5">
+            <div class="container py-5">
+                <div class="row g-0 gx-5 align-items-end pt-5">
                     <div class="col-lg-6">
                         <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
                             <h1 class="mb-3 text-dark-custom">Our Projects</h1>
@@ -577,7 +577,7 @@
                                     <p>Eirmod sed ipsum dolor sit rebum magna erat. Tempor lorem kasd vero ipsum sit sit diam justo sed vero dolor duo.</p>
                                 </div>
                                 <a href="" class="btn btn-custom py-3 px-4 me-2"><i class="fa fa-phone-alt me-2"></i>Make A Call</a>
-                                <a href="" class="btn btn-dark py-3 px-4"><i class="fa fa-calendar-alt me-2"></i>Get Appoinment</a>
+                                <a href="" class="btn btn-custom py-3 px-4"><i class="fa fa-calendar-alt me-2"></i>Get Appoinment</a>
                             </div>
                         </div>
                     </div>
@@ -619,12 +619,12 @@
                         </div>
                     </div>
                     <div class="testimonial-item bg-custom rounded p-3">
-                        <div class="bg-white border rounded p-4 text-dark"  style="min-height: 240px;">
+                        <div class="bg-dark-theme bg-dark border rounded p-4 text-white"  style="min-height: 240px;">
                             <p>"These guys were great! Very responsive, and easy to communicate with. Their work was very professional and of great quality!"</p>
                             <div class="d-flex align-items-center">
                                 <img class="img-fluid flex-shrink-0 rounded" src="{{asset('website-assets/img/testimonial-3.jpg')}}" style="width: 45px; height: 45px;">
                                 <div class="ps-3">
-                                    <h6 class="fw-bold mb-1">Moeismail</h6>
+                                    <h6 class="fw-bold mb-1 text-custom">Moeismail</h6>
                                     <small>CTO / Temp Hub</small>
                                 </div>
                             </div>
@@ -632,12 +632,12 @@
                     </div>
 
                     <div class="testimonial-item bg-custom rounded p-3">
-                        <div class="bg-white border rounded p-4 text-dark"  style="min-height: 240px;">
+                        <div class="bg-dark-theme bg-dark border rounded p-4 text-white"  style="min-height: 240px;">
                             <p>"3 months in and so far happy with the quality of SEO implemented .keywords are gradually going up in the ranks"</p>
                             <div class="d-flex align-items-center">
                                 <img class="img-fluid flex-shrink-0 rounded" src="{{asset('website-assets/img/testimonial-3.jpg')}}" style="width: 45px; height: 45px;">
                                 <div class="ps-3">
-                                    <h6 class="fw-bold mb-1">John McDonald</h6>
+                                    <h6 class="fw-bold mb-1 text-custom">John McDonald</h6>
                                     <small>PM / Junk IT</small>
                                 </div>
                             </div>

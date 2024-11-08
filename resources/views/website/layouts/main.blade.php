@@ -49,7 +49,7 @@
 
         <!-- Navbar Start -->
         <div class="container-fluid nav-bar bg-transparent">
-            <nav class="navbar navbar-expand-lg bg-light navbar-light py-0 my-0 px-4">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light py-0 my-0 px-5">
                 <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
                     <img class="img-fluid p-0" src="{{('website-assets/img/logo/desc_logo.png')}}" alt="Icon" style="height: 30px;">
                     <!-- <div class="icon p-2 me-2">

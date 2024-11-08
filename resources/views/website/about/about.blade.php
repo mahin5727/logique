@@ -1,27 +1,25 @@
 @extends('website.layouts.main')
 @section('content')
             <!-- Header Start -->
-            <div class="container-fluid header bg-custom py-5">
-                <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
-                    <div class="col-md-6 p-5  mt-lg-5">
-                        <h1 class="display-5 text-custom wow animated fadeIn mb-4">About Us</h1> 
-                            <nav aria-label="breadcrumb animated fadeIn">
-                            <ol class="breadcrumb text-uppercase">
-                                <li class="breadcrumb-item"><a class="text-custom" href="#">Home</a></li>
-                                <li class="breadcrumb-item"><a class="text-custom" href="#">Pages</a></li>
-                                <li class="breadcrumb-item text-white active" aria-current="page">About</li>
+            <div class="container-fluid header bg-custom px-0">
+                <div class="row g-0 p-a container-fluid d-flex justify-content-center mt-5 pt-5 flex-column-reverse flex-md-row">
+                    <div class="col-md-12 p-5 align-items-center mt-lg-5">
+                        <h1 class="display-4 text-center text-white wow animated fadeIn mb-4">About Us</h1>
+                        <nav aria-label="breadcrumb align-items-center animated fadeIn">
+                            <ol class="breadcrumb justify-content-center text-uppercase">
+                                <li class="breadcrumb-item  text-center"><a class="text-white" href="#">Home</a></li>
+                                <li class="breadcrumb-item text-center"><a class=" text-white" href="#">Pages</a></li>
+                                <li class="breadcrumb-item text-white text-center active" aria-current="page">About</li>
                             </ol>
                         </nav>
                     </div>
-                    <div class="col-md-6 animated fadeIn">
-                        <img class="img-fluid" src="{{asset('website-assets/img/images/slide-three.jpg')}}" alt="">
-                    </div>
                 </div>
+                <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/slide-one.jpg')}}" alt="">
             </div>
             <!-- Header End -->
             
         <!-- About Start -->
-        <div class="container-xxl bg-dark-theme text-white py-5">
+        <div class="container-xxl py-5">
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
@@ -46,10 +44,10 @@
 
 
         <!-- Call to Action Start -->
-        <div class="container-xxl bg-dark-theme text-white py-5">
+        <div class="container-fluid py-5">
             <div class="container">
-                <div class="bg-custom rounded p-3">
-                    <div class=" rounded bg-dark bg-dark-theme p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                <div class="bg-custom rounded custom-shadow">
+                    <div class="rounded bg-dark-theme p-4" style="border: none">
                         <div class="row g-5 align-items-center">
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                                 <img class="img-fluid rounded w-100" src="{{asset('website-assets/img/call-to-action.jpg')}}" alt="">

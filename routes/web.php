@@ -5,7 +5,13 @@ use App\Http\Controllers\website\HomeController;
 use App\Http\Controllers\website\TeamController;
 use App\Http\Controllers\website\AboutController;
 use App\Http\Controllers\website\WebDevController;
-
+use App\Http\Controllers\website\SeoController;
+use App\Http\Controllers\website\ShopifyController;
+use App\Http\Controllers\website\ApiController;
+use App\Http\Controllers\website\WebDesignControlller;
+use App\Http\Controllers\website\MobileAppsController;
+use App\Http\Controllers\website\OfficeController;
+use App\Http\Controllers\website\UiuxController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,4 +26,11 @@ use App\Http\Controllers\website\WebDevController;
 Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('/team',[TeamController::class,'index'])->name('team');
 Route::get('/about',[AboutController::class,'index'])->name('about');
-Route::get('/web-development',[WebDevController::class,'index'])->name('web-dev');
+Route::get('/web-development-services',[WebDevController::class,'index'])->name('web-dev');
+Route::get('/seo-services',[SeoController::class,'index'])->name('seo');
+Route::get('/shopify',[ShopifyController::class,'index'])->name('shopify');
+Route::get('/api=integration',[ApiController::class,'index'])->name('api');
+Route::get('/web-design',[WebDesignControlller::class,'index'])->name('webdes');
+Route::get('/office-automation',[OfficeController::class,'index'])->name('office');
+Route::get('/uiux-design',[UiuxController::class,'index'])->name('uiux');
+Route::get('/mobile-apps',[MobileAppsController::class,'index'])->name('mobile-apps');

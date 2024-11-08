@@ -1,24 +1,22 @@
 @extends('website.layouts.main')
 @section('content')
-        <!-- Header Start -->
-        {{-- <div class="container-fluid header bg-white p-0">
-            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
-                <div class="col-md-6 p-5 mt-lg-5">
-                    <h1 class="display-5 animated fadeIn mb-4">Our Team</h1> 
-                        <nav aria-label="breadcrumb animated fadeIn">
-                        <ol class="breadcrumb text-uppercase">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                            <li class="breadcrumb-item text-body active" aria-current="page">Team</li>
-                        </ol>
-                    </nav>
+               <!-- Header Start -->
+               <div class="container-fluid header bg-custom px-0">
+                <div class="row g-0 p-a container-fluid d-flex justify-content-center mt-5 pt-5 flex-column-reverse flex-md-row">
+                    <div class="col-md-12 p-5 align-items-center mt-lg-5">
+                        <h1 class="display-4 text-center text-white wow animated fadeIn mb-4">Our Team</h1>
+                        <nav aria-label="breadcrumb align-items-center animated fadeIn">
+                            <ol class="breadcrumb justify-content-center text-uppercase">
+                                <li class="breadcrumb-item  text-center"><a class="text-white" href="#">Home</a></li>
+                                <li class="breadcrumb-item text-center"><a class=" text-white" href="#">Pages</a></li>
+                                <li class="breadcrumb-item text-white text-center active" aria-current="page">Our Team</li>
+                            </ol>
+                        </nav>
+                    </div>
                 </div>
-                <div class="col-md-6 animated fadeIn">
-                    <img class="img-fluid" src="{{asset('website-assets/img/header.jpg')}}" alt="">
-                </div>
+                <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/slide-one.jpg')}}" alt="">
             </div>
-        </div> --}}
-        <!-- Header End -->
+            <!-- Header End -->
 
       <!-- Team Start -->
       <div class="container-xxl py-5">
@@ -33,7 +31,7 @@
                         </div>
                         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                             <h1 class="mb-4 text-custom">Founder / CEO</h1>
-                            <p class="mb-4 text-white">Abdul Rehman, the CEO of LOGIQUE, leads an innovative IT company specializing in web development and digital marketing services. As a Top Rated Plus freelancer on platforms such as Upwork and Fiverr, he brings extensive expertise in the freelance market, successfully working across various platforms to deliver top-tier solutions for his clients. His leadership and deep understanding of the digital landscape have driven LOGIQUE to excel in delivering high-quality services that meet the evolving needs of businesses.</p>
+                            <p class="mb-4">Abdul Rehman, the CEO of LOGIQUE, leads an innovative IT company specializing in web development and digital marketing services. As a Top Rated Plus freelancer on platforms such as Upwork and Fiverr, he brings extensive expertise in the freelance market, successfully working across various platforms to deliver top-tier solutions for his clients. His leadership and deep understanding of the digital landscape have driven LOGIQUE to excel in delivering high-quality services that meet the evolving needs of businesses.</p>
                             {{-- <p><i class="fa fa-check text-primary me-3"></i>Mission: We deliver Uniqueness and Quality.</p>
                             <p><i class="fa fa-check text-primary me-3"></i>
                                 Skills: Delivering fast and excellent results.</p>

@@ -49,9 +49,9 @@
 
         <!-- Navbar Start -->
         <div class="container-fluid nav-bar bg-transparent">
-            <nav class="navbar navbar-expand-lg bg-light navbar-light py-0 my-0    px-4">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light py-0 my-0 px-4">
                 <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
-                    <img class="img-fluid" src="{{('website-assets/img/logo/desc_logo.png')}}" alt="Icon" style="height: 40px;">
+                    <img class="img-fluid p-0" src="{{('website-assets/img/logo/desc_logo.png')}}" alt="Icon" style="height: 30px;">
                     <!-- <div class="icon p-2 me-2">
                     </div> -->
                     <!-- <h1 class="m-0 text-primary">Makaan</h1> -->

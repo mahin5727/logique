@@ -53,9 +53,6 @@
             <nav class="navbar navbar-expand-lg  navbar-light py-0 px-5">
                 <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
                     <img class="img-fluid p-0" src="{{('website-assets/img/logo/logique_new_logo.png')}}" alt="Icon" style="height: 40px;">
-                    <!-- <div class="icon p-2 me-2">
-                    </div> -->
-                    <!-- <h1 class="m-0 text-primary">Makaan</h1> -->
                 </a>
                 <button type="button" class="navbar-toggler text-white" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>

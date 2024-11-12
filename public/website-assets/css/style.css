@@ -4,13 +4,16 @@ h1{
 }
 
 *{
-    font-family: "Nunito Sans", sans-serif ;
+    font-family: 
+    "General Sans",
+    "General Sans Placeholder",
+    sans-serif;
 }
 
 :root {
-    --primary: #5258a8;
+    --primary: #1f5f02e0;
     --secondary: #FF6922;
-    --light: #a0b6ffbb;
+    --light: #5294a8;
     --dark: #2c2c2c;
 }
 body {
@@ -296,7 +299,7 @@ body {
 }
 
 .navbar {
-    box-shadow: 0 0 30px rgba(0, 0, 0, .08);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0);
 }
 
 .navbar .dropdown-toggle::after {
@@ -314,8 +317,9 @@ body {
 }
 
 .navbar {
-    background-color: rgba(255, 255, 255, .8) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
     border-radius: 50px;
+    color: white;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -345,6 +349,10 @@ body {
     .nav-bar {
         margin: 0;
         padding: 0;
+        
+    }
+    .navbar{
+        background-color: white !important;
     }
 
     .navbar-light .navbar-nav .nav-link  {
@@ -362,11 +370,12 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--dark);
+    color: white;
     font-weight: 500;
 }
 
 @media (min-width: 992px) {
+    
     .navbar .nav-item .dropdown-menu {
         display: block;
         top: 100%;
@@ -390,6 +399,7 @@ body {
 
 /*** Header ***/
 @media (min-width: 992px) {
+    
     .header {
         margin-top: -120px;
     }

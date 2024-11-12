@@ -34,6 +34,7 @@
 
     <!-- Template Stylesheet -->
     <link href="{{asset('website-assets/css/style.css')}}" rel="stylesheet">
+    @yield('custom-css')
 </head>
 
 <body>
@@ -51,7 +52,7 @@
         <div class="container-fluid nav-bar bg-transparent">
             <nav class="navbar navbar-expand-lg bg-light navbar-light py-0 my-0 px-5">
                 <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
-                    <img class="img-fluid p-0" src="{{('website-assets/img/logo/desc_logo.png')}}" alt="Icon" style="height: 30px;">
+                    <img class="img-fluid p-0" src="{{('website-assets/img/logo/logique_new_logo.png')}}" alt="Icon" style="height: 50px;">
                     <!-- <div class="icon p-2 me-2">
                     </div> -->
                     <!-- <h1 class="m-0 text-primary">Makaan</h1> -->
@@ -146,7 +147,9 @@
         <script src="{{asset('website-assets/lib/easing/easing.min.js')}}"></script>
         <script src="{{asset('website-assets/lib/waypoints/waypoints.min.js')}}"></script>
         <script src="{{asset('website-assets/lib/owlcarousel/owl.carousel.min.js')}}"></script>
-    
+        <script id='fiverr-seller-widget-script-a47754dc-36ce-4b24-9bf3-6cb9aa0e336b' src='https://widgets.fiverr.com/api/v1/seller/logique_inc?widget_id=a47754dc-36ce-4b24-9bf3-6cb9aa0e336b' data-config='{"category_name":"Programming \u0026 Tech"}' async='true' defer='true'></script>
+        <script id='fiverr-seller-widget-script-366e6363-158c-41e1-a21f-7e554aa573f4' src='https://widgets.fiverr.com/api/v1/seller/logique_inc?widget_id=366e6363-158c-41e1-a21f-7e554aa573f4' data-config='{"category_name":"\n                                    Digital Marketing\n\n                            "}' async='true' defer='true'></script>
+
         <!-- Template Javascript -->
         <script src="{{asset('website-assets/js/main.js')}}"></script>
     </body>

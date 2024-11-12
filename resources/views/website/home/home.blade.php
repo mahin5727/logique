@@ -1,30 +1,63 @@
 @extends('website.layouts.main')
+@section('css')
+<style>
+    form .form-label{
+        color: white !important;
+    }
+    form input{
+        background-color: black;
+    }
+</style>
+@endsection
+
 @section('content')
           <!-- Header Start -->
           <div class="container-fluid header  p-0">
             <div class="row flex-column-reverse flex-md-row">
-                <div class="col-md-12 text-center p-5 py-5 mt-5 p-a">
-                    <h1 class="display-5 mt-lg-5 py-4 animated fadeIn mb-4 text-dark-custom">Web Development & <br> Digital Marketing <span class="text-dark-custom">Agency</span></h1>
+                <div class="col-md-12  p-5 py-5 mt-5 p-a">
+                    <div class="text-center">
+                        <h3 class="display-6 mt-lg-5 py-4 animated fadeIn mb-4 " style="color: white; font-weight:500">Web Development & <br> Digital Marketing <span class="" style="color: #309203e0; font-weight:800; border-bottom:3px solid #3eba04e0 ">Agency</span></h2>
+                    </div>
                     <div class="overflow-hidden wow  slideInLeft d-flex justify-content-center" style="visibility: visible; animation-name: slideInLeft;">
-                        <div itemscope="" itemtype="http://schema.org/Person" class="fiverr-seller-widget" style="display: inline-block;">
-            <a itemprop="url" href="https://www.fiverr.com/logique_inc" rel="nofollow" target="_blank" style="display: inline-block;">
-               <div class="fiverr-seller-content" id="fiverr-seller-widget-content-627e3570-276d-4cb6-a975-06162ffbe33a" itemprop="contentURL" style="display: inline-block;"><div class="crop"><img src="https://d2nb1f6l8b7ky0.cloudfront.net/missing-image-250x250-new.png" class="fiverr-profile-img">             <div class="overlay"></div></div>             <img src="https://d2nb1f6l8b7ky0.cloudfront.net/fiverr_icon.png" class="fiverr-icon">              <div class="fiverr-seller-text"> Seller </div>             <div class="fiverr-seller-category"> Programming &amp; Tech </div>             <div class="fiverr-rating-stars" id="fiverr-rating-stars-627e3570-276d-4cb6-a975-06162ffbe33a" style="display: block;">  </div>             <div class="check-gigs-btn">Check out my Gigs</div></div>
-               <div id="fiverr-widget-seller-data" style="display: none; height:70%">
-                   <div itemprop="name">logique_inc</div>
-                   <div itemscope="" itemtype="http://schema.org/Organization"><span itemprop="name">Fiverr</span></div>
-                   <div itemprop="jobtitle">Seller</div>
-                   <div itemprop="description">Are you ready to elevate your business and thrive in the dynamic digital landscape? Our IT company offers a full suite of services to help you build a strong and impactful online presence. From innovative web design and development to SEO and mobile app solutions, we turn your vision into reality. But we don’t stop there—our team is dedicated to providing ongoing support to ensure your digital success continues to grow. Let us be your trusted partner in transforming your business for the future.</div>
-               </div>
-           </a>
-        </div>
-                        <!--<img src="https://logiquellc.com/website-assets/images/about-us.jpg" alt="About Us" class="img-fluid hvr-bounce-in mb-n1" />-->
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 mt-3 d-flex justify-content-center" >
+                                <!-- Put this code anywhere in the body of your page where you want the badge to show up. -->
+                                    <a href="https://www.fiverr.com/logique_inc" target="_blank"><img src="{{asset('website-assets/img/fiverrcard2.jpeg')}}" height="300px" style="border-radius:10px"/></a>
+                                    
+                                    <a href="https://www.fiverr.com/logique_inc" target="_blank"><img src="{{asset('website-assets/img/fiverrcard2.jpeg')}}" height="300px" style="border-radius:10px; margin-left:50px"/></a>
+
+                                    <!-- Put this code anywhere in the body of your page where you want the badge to show up. -->
+                                   
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <form class="lead-form">
+                                        <div class="mb-3 mt-2">
+                                            <label for="exampleFormControlInput1" class="form-label" style="color: white">Company Name</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Logique" style="background-color: rgba(0, 0, 0, 0.24); color:white;border:none; border-bottom:1px solid #2f9201e0 ">
+                                        </div>
+                                        <div class="mb-3 mt-2">
+                                            <label for="exampleFormControlInput1" class="form-label" style="color: white">Email Address</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" style="background-color: rgba(0, 0, 0, 0.24); color:white;border:none; border-bottom:1px solid #2f9201e0 ">
+                                        </div>
+                                        <div class="mb-3 mt-2">
+                                            <label for="exampleFormControlInput1" class="form-label" style="color: white">Business / Profile URL</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="https://logiquellc.com/" style="background-color: rgba(0, 0, 0, 0.24); color:white;border:none; border-bottom:1px solid #2f9201e0 ">
+                                        </div>
+                                        <div class="mb-3">
+                                            <button type="submit" class="btn btn-large mt-4" style="background-color:#1f5f02e0; color:white">Request Free Landing Page</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
-                    {{-- <p class="animated fadeIn text-white mb-4 pb-2">In This Era Of Digital Transformation, Organizations Are Consistently Trying To Revamp Their Strategies.<br> We Specialize In Web Design, Development, Digital Marketing, and Social Media Marketing Services.</p>
-                    <a href="" class="btn btn-custom py-3 px-5 me-3 animated fadeIn">Get Started</a> --}}
+                    </div>
                 </div>
+                    
+            </div>
                 
             </div>
-            <img class="img-fluid slider " style="height: 100vh" src="{{asset('website-assets/img/images/slide-one.jpg')}}" alt="">
+            <img class="img-fluid slider " style="height: 100vh; width:100%" src="{{asset('website-assets/img/images/banner_new2.jpeg')}}" alt="">
         </div>
         <!-- Header End -->
 
@@ -40,7 +73,7 @@
                     </div>
                     <div class="col-lg-6 text-dark wow fadeIn" data-wow-delay="0.5s">
                         <h1 class="mb-4 text-custom">About Us</h1>
-                        <p class="mb-4">Our Team Consists Of Highly Skilled Software Developers In the USA And UK With Vast Experience And Deep Knowledge Of The Latest Technologies. We Are Committed To Delivering First-Class Software Solutions To Help Companies Achieve Their Digital Transformation Goals. Software Technology Is Our Strength, And Creating Value For Our Clients Is Our Passion. We Strive To Make A Difference With Fairness And Innovation To Deliver The Perfect Digital Solution In The Market. Our Core Competency Lies In Web Development, API Integration, Shopify App Design, SEO, GIS Mapping, And Google Sheets Or Forms In USA And UK.</p>
+                        <p class="mb-4" style="text-align: justify">Our Team Consists Of Highly Skilled Software Developers In the USA And UK With Vast Experience And Deep Knowledge Of The Latest Technologies. We Are Committed To Delivering First-Class Software Solutions To Help Companies Achieve Their Digital Transformation Goals. Software Technology Is Our Strength, And Creating Value For Our Clients Is Our Passion. We Strive To Make A Difference With Fairness And Innovation To Deliver The Perfect Digital Solution In The Market. Our Core Competency Lies In Web Development, API Integration, Shopify App Design, SEO, GIS Mapping, And Google Sheets Or Forms In USA And UK.</p>
                         <p><i class="fa fa-check text-custom me-3"></i>Mission: We deliver Uniqueness and Quality.</p>
                         <p><i class="fa fa-check text-custom me-3"></i>
                             Skills: Delivering fast and excellent results.</p>

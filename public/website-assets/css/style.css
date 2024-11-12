@@ -318,7 +318,7 @@ body {
 
 .navbar {
     background-color: rgba(0, 0, 0, 0) !important;
-    border-radius: 50px;
+    margin-top: 20px !important;
     color: white;
 }
 
@@ -343,16 +343,13 @@ body {
 
 }
 
-
-
 @media (max-width: 991.98px) {
     .nav-bar {
         margin: 0;
-        padding: 0;
-        
+        padding: 0px;
     }
     .navbar{
-        background-color: white !important;
+        background-color: black !important;
     }
 
     .navbar-light .navbar-nav .nav-link  {
@@ -401,7 +398,7 @@ body {
 @media (min-width: 992px) {
     
     .header {
-        margin-top: -120px;
+        margin-top: -100px;
     }
 }
 
@@ -426,7 +423,6 @@ image{
 }
 
 .slider {
-
     filter: brightness(0.2);
 }
 

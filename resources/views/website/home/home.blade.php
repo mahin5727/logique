@@ -12,17 +12,17 @@
 
 @section('content')
           <!-- Header Start -->
-          <div class="container-fluid header  p-0">
-            <div class="row flex-column-reverse flex-md-row">
-                <div class="col-md-12  p-5 py-5 mt-5 p-a">
+          <div class="container-fluid header position-relative p-0">
+            <div class="row">
+                <div class="col-12 p-5 py-5 mt-5 p-a">
                     <div class="text-center">
-                        <h3 class="display-6 mt-lg-5 py-4 animated fadeIn mb-4 " style="color: white; font-weight:500">Web Development & <br> Digital Marketing <span class="" style="color: #309203e0; font-weight:800; border-bottom:3px solid #3eba04e0 ">Agency</span></h2>
+                        <h3 class="display-6 mt-lg-4 pb-5 animated fadeIn mb-4 " style="color: white; font-weight:500">Web Development & <br> Digital Marketing <span class="" style="color: #309203e0; font-weight:800; border-bottom:3px solid #3eba04e0 ">Agency</span></h2>
                     </div>
                     <div class="overflow-hidden wow  slideInLeft d-flex justify-content-center" style="visibility: visible; animation-name: slideInLeft;">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="col-md-6 col-sm-12 mt-3 d-flex justify-content-center" >
-                                <!-- Put this code anywhere in the body of your page where you want the badge to show up. -->
+                                <div class="col-lg-6 d-none mt-3 d-lg-flex justify-content-center" >
+                                    <!-- Put this code anywhere in the body of your page where you want the badge to show up. -->
                                     <a href="https://www.fiverr.com/logique_inc" target="_blank"><img src="{{asset('website-assets/img/fiverrcard2.jpeg')}}" height="300px" style="border-radius:10px"/></a>
                                     
                                     <a href="https://www.fiverr.com/logique_inc" target="_blank"><img src="{{asset('website-assets/img/fiverrcard2.jpeg')}}" height="300px" style="border-radius:10px; margin-left:50px"/></a>
@@ -30,7 +30,7 @@
                                     <!-- Put this code anywhere in the body of your page where you want the badge to show up. -->
                                    
                                 </div>
-                                <div class="col-md-6 col-sm-12">
+                                <div class="col-lg-6 col-12">
                                     <form class="lead-form">
                                         <div class="mb-3 mt-2">
                                             <label for="exampleFormControlInput1" class="form-label" style="color: white">Company Name</label>
@@ -52,10 +52,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                    
-            </div>
-                
+                </div>     
             </div>
             <img class="img-fluid slider " style="height: 100vh; width:100%" src="{{asset('website-assets/img/images/banner_new2.jpeg')}}" alt="">
         </div>

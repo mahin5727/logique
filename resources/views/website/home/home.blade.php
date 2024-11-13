@@ -25,7 +25,7 @@
                                     <!-- Put this code anywhere in the body of your page where you want the badge to show up. -->
                                     <a href="https://www.fiverr.com/logique_inc" target="_blank"><img src="{{asset('website-assets/img/fiverrcard2.jpeg')}}" height="300px" style="border-radius:10px"/></a>
                                     
-                                    <a href="https://www.fiverr.com/logique_inc" target="_blank"><img src="{{asset('website-assets/img/fiverrcard2.jpeg')}}" height="300px" style="border-radius:10px; margin-left:50px"/></a>
+                                    <a href="https://www.fiverr.com/logique_inc" target="_blank"><img src="{{asset('website-assets/img/fiverrcard3.jpeg')}}" height="300px" style="border-radius:10px; margin-left:50px"/></a>
 
                                     <!-- Put this code anywhere in the body of your page where you want the badge to show up. -->
                                    
@@ -64,9 +64,7 @@
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                            <img class="img-fluid w-100" src="{{asset('website-assets/img/images/slide-one.jpg')}}">
-                        </div>
+                        <img class=" w-100 h-100" src="{{asset('website-assets/img/about-us.jpg')}}" >
                     </div>
                     <div class="col-lg-6 text-dark wow fadeIn" data-wow-delay="0.5s">
                         <h1 class="mb-4 text-custom">About Us</h1>
@@ -224,119 +222,73 @@
                     <div id="tab-1" class="tab-pane fade show p-0 active">
                         <div class="row g-4">
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href="https://staytick.com/en"><img class="img-fluid"  src="{{asset('website-assets/img/projects/project-one.PNG')}}" style="height: 200px;" alt=""></a>
-                                        <!-- <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div> -->
-                                        <!-- <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Appartment</div> -->
-                                    </div>
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-custom mb-3">StayTick</h5>
-                                        <a class="d-block h6 py-2 mb-2 text-dark text-decoration-none" >This is a good project</a>
-                                        <!-- <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</p> -->
-                                    </div>
-                                    <div class="d-flex border-top">
-                                        <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small> -->
-                                        <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small> -->
-                                        <a class="flex-fill text-dark text-center py-2" href="https://staytick.com/en"><i class="fa fa-globe text-custom me-2"></i>Visit</a>
+                                <div class="center">
+                                    <div class="article-card">
+                                      <div class="content">
+                                        <p class="date">Jan 1, 2022</p>
+                                        <p class="title">WDN</p>
+                                      </div>
+                                      <img src="{{asset('website-assets/img/projects/WDN.PNG')}}" alt="article-cover" />
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href="https://fdp-front.deviotech.com/"><img class="img-fluid"  src="{{asset('website-assets/img/projects/florida-driving.PNG')}}" style="height: 200px;" alt=""></a>
-                                        <!-- <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div> -->
-                                        <!-- <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Appartment</div> -->
-                                    </div>
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-custom mb-3">Florida Driving</h5>
-                                        <a class="d-block h6 py-2 mb-2 text-dark text-decoration-none" >This is a good project</a>
-                                        <!-- <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</p> -->
-                                    </div>
-                                    <div class="d-flex border-top">
-                                        <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small> -->
-                                        <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small> -->
-                                        <a class="flex-fill text-dark text-center py-2" href="https://fdp-front.deviotech.com/"><i class="fa fa-globe text-custom me-2"></i>Visit</a>
+                                <div class="center">
+                                    <div class="article-card">
+                                      <div class="content">
+                                        <p class="date">Jan 1, 2022</p>
+                                        <p class="title">FLORIDA DRIVING </p>
+                                      </div>
+                                      <img src="{{asset('website-assets/img/projects/florida-driving.PNG')}}" alt="article-cover" />
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href="https://thebengp.com/"><img class="img-fluid"  src="{{asset('website-assets/img/projects/Bengeb.PNG')}}" style="height: 200px;" alt=""></a>
-                                        <!-- <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div> -->
-                                        <!-- <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Appartment</div> -->
+                                <div class="center">
+                                    <div class="article-card">
+                                      <div class="content">
+                                        <p class="date">Jan 1, 2022</p>
+                                        <p class="title">Engineered wealth</p>
+                                      </div>
+                                      <img src="{{asset('website-assets/img/projects/engineered.PNG')}}" alt="article-cover" />
                                     </div>
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-custom mb-3">BenGP</h5>
-                                        <a class="d-block h6 py-2 mb-2 text-dark text-decoration-none" >This is a good project</a>
-                                        <!-- <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</p> -->
-                                    </div>
-                                    <div class="d-flex border-top">
-                                        <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small> -->
-                                        <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small> -->
-                                        <a class="flex-fill text-dark text-center py-2" href="https://thebengp.com/"><i class="fa fa-globe text-custom me-2"></i>Visit</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 wow fadeInUp " data-wow-delay="0.1s">
+                                <div class="center">
+                                    <div class="article-card">
+                                      <div class="content">
+                                        <p class="date">Jan 1, 2022</p>
+                                        <p class="title">BEN GP</p>
+                                      </div>
+                                      <img src="{{asset('website-assets/img/projects/Bengeb.PNG')}}" alt="article-cover" />
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href="https://granitesworktops.co.uk/"><img class="img-fluid"  src="{{asset('website-assets/img/projects/project-four.PNG')}}" style="height: 200px;" alt=""></a>
-                                        <!-- <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div> -->
-                                        <!-- <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Appartment</div> -->
-                                    </div>
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-custom mb-3">Granite WorkTops</h5>
-                                        <a class="d-block h6 py-2 mb-2 text-dark text-decoration-none" >This is a good project</a>
-                                        <!-- <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</p> -->
-                                    </div>
-                                    <div class="d-flex border-top">
-                                        <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small> -->
-                                        <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small> -->
-                                        <a class="flex-fill text-dark text-center py-2" href="https://granitesworktops.co.uk/"><i class="fa fa-globe text-custom me-2"></i>Visit</a>
+                                <div class="center">
+                                    <div class="article-card">
+                                      <div class="content">
+                                        <p class="date">Jan 1, 2022</p>
+                                        <p class="title">Granite Worktops</p>
+                                      </div>
+                                      <img src="{{asset('website-assets/img/projects/project-four.PNG')}}" alt="article-cover" />
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href="https://stay-blessed-insurance.deviotech.com/"><img class="img-fluid" style="height: 200px;" src="{{asset('website-assets/img/projects/WDN.PNG')}}" alt=""></a>
-                                        <!-- <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div> -->
-                                        <!-- <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Appartment</div> -->
-                                    </div>
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-custom  mb-3">Stay Blessed Insurance</h5>
-                                        <a class="d-block h6 py-2 mb-2 text-dark text-decoration-none" >This is a good project</a>
-                                        <!-- <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</p> -->
-                                    </div>
-                                    <div class="d-flex border-top">
-                                        <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small> -->
-                                        <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small> -->
-                                        <a class="flex-fill text-dark text-center py-2" href="https://stay-blessed-insurance.deviotech.com/"><i class="fa fa-globe text-custom me-2"></i>Visit</a>
+                              
+                                <div class="center">
+                                    <div class="article-card">
+                                      <div class="content">
+                                        <p class="date">Jan 1, 2022</p>
+                                        <p class="title">Granite Worktops</p>
+                                      </div>
+                                      <img src="{{asset('website-assets/img/projects/project-one.PNG')}}" alt="article-cover" />
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="property-item rounded overflow-hidden">
-                                    <div class="position-relative overflow-hidden">
-                                        <a href="https://harmo.com/en/"><img class="img-fluid" style="height: 200px;" src="{{asset('website-assets/img/projects/project-five.PNG')}}" alt=""></a>
-                                        <!-- <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">For Sell</div> -->
-                                        <!-- <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Appartment</div> -->
-                                    </div>
-                                    <div class="p-4 pb-0">
-                                        <h5 class="text-custom mb-3">StayTick</h5>
-                                        <a class="d-block h6 py-2 mb-2 text-dark text-decoration-none" >This is a good project</a>
-                                        <!-- <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</p> -->
-                                    </div>
-                                    <div class="d-flex border-top">
-                                        <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>1000 Sqft</small> -->
-                                        <!-- <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small> -->
-                                        <a class="flex-fill text-dark text-center py-2" href="https://harmo.com/en/"><i class="fa fa-globe text-custom me-2"></i>Visit</a>
-                                    </div>
-                                </div>
-                            </div>
+                          
                             
                           
                             <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">

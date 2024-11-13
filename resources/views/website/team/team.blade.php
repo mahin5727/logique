@@ -9,7 +9,7 @@
                             <ol class="breadcrumb justify-content-center text-uppercase">
                                 <li class="breadcrumb-item  text-center"><a class="text-white" href="#">Home</a></li>
                                 <li class="breadcrumb-item text-center"><a class=" text-white" href="#">Pages</a></li>
-                                <li class="breadcrumb-item text-white text-center active" aria-current="page">Our Team</li>
+                                <li class="breadcrumb-item text-white text-center active" aria-current="page">Team</li>
                             </ol>
                         </nav>
                     </div>
@@ -59,7 +59,7 @@
                         </div>
                         <div class="text-center  p-4 mt-3">
                             <h5 class="fw-bold text-custom mb-0">Abdul Rehman</h5>
-                            <small class="text-white">Chief Executive Officer</small>
+                            <small >Chief Executive Officer</small>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                         </div>
                         <div class="text-center p-4 mt-3">
                             <h5 class="fw-bold text-custom mb-0">Hamza Zahid</h5>
-                            <small class="text-white">HR Manager</small>
+                            <small >HR Manager</small>
                         </div>
                     </div>
                 </div>
@@ -89,7 +89,7 @@
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
-                        <div class="text-center text-white p-4 mt-3">
+                        <div class="text-center p-4 mt-3">
                             <h5 class="fw-bold text-custom mb-0">Asad Ahmad</h5>
                             <small>Chief Technical Officer</small>
                         </div>
@@ -105,7 +105,7 @@
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
-                        <div class="text-center text-white p-4 mt-3">
+                        <div class="text-center p-4 mt-3">
                             <h5 class="fw-bold text-custom mb-0">Arslan Sagheer</h5>
                             <small>Project Manager</small>
                         </div>
@@ -121,7 +121,7 @@
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
-                        <div class="text-center text-white p-4 mt-3">
+                        <div class="text-center p-4 mt-3">
                             <h5 class="fw-bold text-custom mb-0">Jibran Shakeel</h5>
                             <small>Business Developer</small>
                         </div>
@@ -137,7 +137,7 @@
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
-                        <div class="text-center text-white p-4 mt-3">
+                        <div class="text-center p-4 mt-3">
                             <h5 class="fw-bold text-custom mb-0">Daniyal Shakeel</h5>
                             <small>Business Developer</small>
                         </div>
@@ -153,7 +153,7 @@
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
-                        <div class="text-center text-white p-4 mt-3">
+                        <div class="text-center p-4 mt-3">
                             <h5 class="fw-bold text-custom mb-0">Ayesha Zahid</h5>
                             <small>Tech Lead</small>
                         </div>
@@ -169,7 +169,7 @@
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
-                        <div class="text-center text-white p-4 mt-3">
+                        <div class="text-center p-4 mt-3">
                             <h5 class="fw-bold text-custom mb-0">Sana Sagheer</h5>
                             <small>Tech Lead</small>
                         </div>
@@ -185,7 +185,7 @@
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
-                        <div class="text-center text-white p-4 mt-3">
+                        <div class="text-center p-4 mt-3">
                             <h5 class="fw-bold text-custom mb-0">Mahin Ahmad</h5>
                             <small>Web Developer</small>
                         </div>
@@ -201,7 +201,7 @@
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
-                        <div class="text-center text-white p-4 mt-3">
+                        <div class="text-center p-4 mt-3">
                             <h5 class="fw-bold text-custom mb-0">Muhammad Afaq</h5>
                             <small>Web Developer</small>
                         </div>
@@ -217,7 +217,7 @@
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
-                        <div class="text-center text-white p-4 mt-3">
+                        <div class="text-center p-4 mt-3">
                             <h5 class="fw-bold text-custom mb-0">Amna Mudassir</h5>
                             <small>Tech Lead</small>
                         </div>
@@ -233,7 +233,7 @@
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
-                        <div class="text-center text-white p-4 mt-3">
+                        <div class="text-center p-4 mt-3">
                             <h5 class="fw-bold text-custom mb-0">Ali Ahsan</h5>
                             <small>Web Developer</small>
                         </div>

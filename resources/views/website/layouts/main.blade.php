@@ -49,8 +49,8 @@
 
 
         <!-- Navbar Start -->
-        <div class="container-fluid nav-bar bg-custom-nav">
-            <nav class="navbar navbar-expand-lg  navbar-light py-0 px-5">
+        <div id="nav-con" class="container-fluid nav-bar">
+            <nav class="navbar navbar-expand-lg navbar-light py-0 px-5">
                 <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
                     <img class="img-fluid p-0" src="{{('website-assets/img/logo/logique_new_logo.png')}}" alt="Icon" style="height: 40px;">
                 </a>
@@ -77,7 +77,7 @@
                                 <a href="404.html" class="dropdown-item">404 Error</a>
                             </div>
                         </div> --}}
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="{{route('contact')}}" class="nav-item nav-link {{Route::Is('contact') ? 'active' : ''}}">Contact</a>
                     </div>
                     {{-- <a href="" class="btn btn-custom px-3 d-none d-lg-flex">Add Property</a> --}}
                 </div>
@@ -112,7 +112,7 @@
                             <a class="btn btn-link " href="">Terms & Condition</a>
                         </div>
                         <div class="col-lg-4 text-white col-md-6">
-                            <img class="pb-4" src="{{asset('website-assets/img/logo/desc_logo.png')}}" width="250px" alt="">
+                            <img class="pb-4" src="{{asset('website-assets/img/logo/logique_new_logo.png')}}" width="250px" alt="">
                             <p class="text-start py-4">Our Core Competency Lies In Web Development, API Integration, Shopify App Design, SEO, GIS Mapping, And Google Sheets Or Forms In USA And UK.</p>
                         </div>
                     </div>
@@ -149,6 +149,21 @@
 
         <!-- Template Javascript -->
         <script src="{{asset('website-assets/js/main.js')}}"></script>
+        <script>
+            function handleScroll() {
+                const navbar = document.getElementById('nav-con');
+
+                if (window.scrollY >60) {
+                    navbar.classList.add('bg-custom-nav'); // Add class to change color when scrolled down
+                } else if(window.scrollY<60) {
+                    navbar.classList.remove('bg-custom-nav'); // Remove class when back to the top
+                }
+            }
+            // Add scroll event listener
+            window.addEventListener('scroll', handleScroll);
+            // Initial check in case the page is already scrolled
+            handleScroll();
+        </script>
     </body>
     
     </html>

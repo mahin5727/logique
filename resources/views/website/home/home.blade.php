@@ -291,9 +291,9 @@
                           
                             
                           
-                            <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
+                            {{-- <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
                                 <a class="btn btn-custom py-3 px-5" href="">Browse More Property</a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
 
@@ -317,8 +317,8 @@
                                     <h1 class="mb-3 text-custom">Contact With Our Certified Agent</h1>
                                     <p>Eirmod sed ipsum dolor sit rebum magna erat. Tempor lorem kasd vero ipsum sit sit diam justo sed vero dolor duo.</p>
                                 </div>
-                                <a href="" class="btn btn-custom py-3 px-4 me-2"><i class="fa fa-phone-alt me-2"></i>Make A Call</a>
-                                <a href="" class="btn btn-custom py-3 px-4"><i class="fa fa-calendar-alt me-2"></i>Get Appoinment</a>
+                                <a href="{{route('contact')}}" class="btn btn-custom py-3 px-4 me-2"><i class="fa fa-phone-alt me-2"></i>Make A Call</a>
+                                <a href="{{route('contact')}}" class="btn btn-custom py-3 px-4"><i class="fa fa-calendar-alt me-2"></i>Get Appoinment</a>
                             </div>
                         </div>
                     </div>

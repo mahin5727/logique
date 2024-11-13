@@ -137,8 +137,8 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-sm-6 custom-shadow wow fadeInUp" data-wow-delay="0.5s">
-                        <a class="cat-item d-block bg-custom text-center rounded" href="{{route('webdes')}}">
+                    <div class="col-lg-3 col-sm-6  wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item d-block bg-custom custom-shadow text-center rounded" href="{{route('webdes')}}">
                             <div class="rounded  p-4">
                                 <div class="icon mb-3">
                                     <!-- <img class="img-fluid" src="img/icon-apartment.png" alt="Icon"> -->
@@ -149,8 +149,8 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-sm-6 custom-shadow wow fadeInUp" data-wow-delay="0.6s">
-                        <a class="cat-item d-block bg-custom text-center rounded" href="{{route('office')}}">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <a class="cat-item d-block bg-custom custom-shadow text-center rounded" href="{{route('office')}}">
                             <div class="rounded  p-4">
                                 <div class="icon mb-3">
                                     <!-- <img class="img-fluid" src="img/icon-apartment.png" alt="Icon"> -->
@@ -161,8 +161,8 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-sm-6 custom-shadow wow fadeInUp" data-wow-delay="0.7s">
-                        <a class="cat-item d-block bg-custom text-center rounded" href="{{route('uiux')}}">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <a class="cat-item d-block bg-custom custom-shadow text-center rounded" href="{{route('uiux')}}">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
                                     <!-- <img class="img-fluid" src="img/icon-apartment.png" alt="Icon"> -->
@@ -173,8 +173,8 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-sm-6 custom-shadow wow fadeInUp" data-wow-delay="0.8s">
-                        <a class="cat-item d-block bg-custom text-center rounded" href="{{route('mobile-apps')}}">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                        <a class="cat-item d-block bg-custom custom-shadow text-center rounded" href="{{route('mobile-apps')}}">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
                                     <!-- <img class="img-fluid" src="img/icon-apartment.png" alt="Icon"> -->

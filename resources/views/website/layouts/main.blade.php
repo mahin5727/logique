@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Makaan - Real Estate HTML Template</title>
+    <title>Logique</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{{asset('website-assets/img/logo/logo.png')}}" rel="icon">
 
     <!-- Google Web Fonts -->
     
@@ -52,7 +52,7 @@
         <div id="nav-con" class="container-fluid nav-bar">
             <nav class="navbar navbar-expand-lg navbar-light py-0 px-5">
                 <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
-                    <img class="img-fluid p-0" src="{{('website-assets/img/logo/logique_new_logo.png')}}" alt="Icon" style="height: 40px;">
+                    <img class="img-fluid p-0" src="{{asset('website-assets/img/logo/logique_new_logo.png')}}" alt="Icon" style="height: 40px;">
                 </a>
                 <button type="button" class="navbar-toggler text-white" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>

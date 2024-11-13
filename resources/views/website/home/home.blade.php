@@ -31,18 +31,19 @@
                                    
                                 </div>
                                 <div class="col-lg-6 col-12">
-                                    <form class="lead-form">
+                                    <form class="lead-form" action="{{route('post-url')}}" method="POST">
+                                        @csrf
                                         <div class="mb-3 mt-2">
                                             <label for="exampleFormControlInput1" class="form-label" style="color: white">Company Name</label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Logique" style="background-color: rgba(0, 0, 0, 0.24); color:white;border:none; border-bottom:1px solid #2f9201e0 ">
+                                            <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Logique" style="background-color: rgba(0, 0, 0, 0.24); color:white;border:none; border-bottom:1px solid #2f9201e0 ">
                                         </div>
                                         <div class="mb-3 mt-2">
                                             <label for="exampleFormControlInput1" class="form-label" style="color: white">Email Address</label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" style="background-color: rgba(0, 0, 0, 0.24); color:white;border:none; border-bottom:1px solid #2f9201e0 ">
+                                            <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" style="background-color: rgba(0, 0, 0, 0.24); color:white;border:none; border-bottom:1px solid #2f9201e0 ">
                                         </div>
                                         <div class="mb-3 mt-2">
                                             <label for="exampleFormControlInput1" class="form-label" style="color: white">Business / Profile URL</label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="https://logiquellc.com/" style="background-color: rgba(0, 0, 0, 0.24); color:white;border:none; border-bottom:1px solid #2f9201e0 ">
+                                            <input type="text" name="url" class="form-control" id="exampleFormControlInput1" placeholder="https://logiquellc.com/" style="background-color: rgba(0, 0, 0, 0.24); color:white;border:none; border-bottom:1px solid #2f9201e0 ">
                                         </div>
                                         <div class="mb-3">
                                             <button type="submit" class="btn btn-large mt-4" style="background-color:#1f5f02e0; color:white">Request Free Landing Page</button>
@@ -195,8 +196,8 @@
 
 
         <!-- Property List Start -->
-        <div class="container-fluid mt-5 px-0 bg-image" style="background-image: url('website-assets/img/images/projects_img.jpg') !important; background-size: cover; background-position: center;">
-            <div style="background-color: rgba(255, 255, 255, 0.9); padding: 0; margin: 0;">
+        <div class="container-fluid mt-5 px-0 bg-image" style="background-image: url('website-assets/img/images/projects_img.png') !important; background-size: cover; background-position: center;">
+            <div style="background-color: rgba(255, 255, 255, 0); padding: 0; margin: 0;">
             <div class="container " >
             <div class="row g-0 gx-5 pt-5 ">
                     <div class="col-lg-12">
@@ -240,7 +241,7 @@
                                         <p class="date">Jan 1, 2022</p>
                                         <p class="title">FLORIDA DRIVING </p>
                                       </div>
-                                      <img src="{{asset('website-assets/img/projects/florida-driving.PNG')}}" alt="article-cover" />
+                                      <img src="{{asset('website-assets/img/projects/quirky-top.jpg')}}" alt="article-cover" />
                                     </div>
                                 </div>
                             </div>
@@ -262,7 +263,7 @@
                                         <p class="date">Jan 1, 2022</p>
                                         <p class="title">BEN GP</p>
                                       </div>
-                                      <img src="{{asset('website-assets/img/projects/Bengeb.PNG')}}" alt="article-cover" />
+                                      <img src="{{asset('website-assets/img/projects/Busines Finance-top.jpg')}}" alt="article-cover" />
                                     </div>
                                 </div>
                             </div>
@@ -273,7 +274,7 @@
                                         <p class="date">Jan 1, 2022</p>
                                         <p class="title">Granite Worktops</p>
                                       </div>
-                                      <img src="{{asset('website-assets/img/projects/project-four.PNG')}}" alt="article-cover" />
+                                      <img src="{{asset('website-assets/img/projects/Modern Dashboard.png')}}" alt="article-cover" />
                                     </div>
                                 </div>
                             </div>
@@ -285,7 +286,7 @@
                                         <p class="date">Jan 1, 2022</p>
                                         <p class="title">Granite Worktops</p>
                                       </div>
-                                      <img src="{{asset('website-assets/img/projects/project-one.PNG')}}" alt="article-cover" />
+                                      <img src="{{asset('website-assets/img/projects/Asia Business-top.jpg')}}" alt="article-cover" />
                                     </div>
                                 </div>
                             </div>
@@ -312,7 +313,7 @@
                     <div class="rounded bg-dark-theme p-4" style="border: none">
                         <div class="row g-5 align-items-center">
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                                <img class="img-fluid rounded w-100" src="{{asset('website-assets/img/call-to-action.jpg')}}" alt="">
+                                <img class="img-fluid rounded w-100" src="{{asset('website-assets/img/contact.jpeg')}}" alt="">
                             </div>
                             <div class="col-lg-6  wow fadeIn" data-wow-delay="0.5s">
                                 <div class="mb-4">
@@ -334,7 +335,7 @@
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <h1 class="mb-3 text-dark-custom">Trusted Happy Customers</h1>
-                    <p>Client's Feedback</p>
+                    <p class="text-center">Client's Feedback</p>
                 </div>
                 <div class="owl-carousel testimonial-carousel bg-dark bg-dark-theme wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item bg-custom rounded" >

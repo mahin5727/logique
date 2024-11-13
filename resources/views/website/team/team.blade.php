@@ -52,9 +52,7 @@
                         <div class="position-relative">
                             <img class="img-fluid" src="{{asset('website-assets/img/team/ar.jpeg')}}" alt="">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/abdul-rehman-260aa8213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="text-center  p-4 mt-3">
@@ -85,7 +83,7 @@
                             <img class="img-fluid" src="{{asset('website-assets/img/team/asad.jpeg')}}"  alt="">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin"></i></a>
+                                <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/in/asad-ahmad-667605209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>

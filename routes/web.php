@@ -28,6 +28,8 @@ Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('/team',[TeamController::class,'index'])->name('team');
 Route::get('/about',[AboutController::class,'index'])->name('about');
 Route::get('/contact',[ContactController::class,'index'])->name('contact');
+Route::post('/post-message',[ContactController::class,'postmessage'])->name('post-message');
+Route::post('/post-url',[ContactController::class,'posturl'])->name('post-url');
 Route::get('/web-development-services',[WebDevController::class,'index'])->name('web-dev');
 Route::get('/seo-services',[SeoController::class,'index'])->name('seo');
 Route::get('/shopify',[ShopifyController::class,'index'])->name('shopify');

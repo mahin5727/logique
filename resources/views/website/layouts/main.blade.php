@@ -97,10 +97,8 @@
                             <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>923084284858</p>
                             <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@logiquellc.com</p>
                             <div class="d-flex pt-2">
-                                <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-x-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-outline-light btn-social" target="_blank" href="https://www.instagram.com/logique_llc?igsh=MTZrZHdlM3p1dXFzdA=="><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-outline-light btn-social" target="_blank" href="https://www.linkedin.com/company/logiquellc/?viewAsMember=true"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                         <div class="col-lg-4 text-white col-md-6">

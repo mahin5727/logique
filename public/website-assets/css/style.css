@@ -34,6 +34,10 @@ body {
     color: white !important;
 }
 
+.bg-custom-nav {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
 .bg-dark-footer {
     background-color: var(--dark);
 }
@@ -731,6 +735,8 @@ a {
 .footer .btn.btn-link:hover {
     letter-spacing: 1px;
     box-shadow: none;
+    background-color: transparent !important;
+    colo
 }
 
 .footer .form-control {

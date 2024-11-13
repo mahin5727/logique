@@ -125,8 +125,8 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-sm-6 custom-shadow wow fadeInUp" data-wow-delay="0.4s">
-                        <a class="cat-item d-block bg-custom text-center rounded" href="{{route('api')}}">
+                    <div class="col-lg-3 col-sm-6  wow fadeInUp" data-wow-delay="0.4s">
+                        <a class="cat-item d-block bg-custom custom-shadow text-center rounded" href="{{route('api')}}">
                             <div class="rounded  p-4">
                                 <div class="icon mb-3">
                                     <!-- <img class="img-fluid" src="img/icon-apartment.png" alt="Icon"> -->
@@ -195,9 +195,10 @@
 
 
         <!-- Property List Start -->
-        <div class="container-fluid mt-5 ">
-            <div class="container ">
-                <div class="row g-0 gx-5 pt-5">
+        <div class="container-fluid mt-5 px-0 bg-image" style="background-image: url('website-assets/img/images/projects_img.jpg') !important; background-size: cover; background-position: center;">
+            <div style="background-color: rgba(255, 255, 255, 0.9); padding: 0; margin: 0;">
+            <div class="container " >
+            <div class="row g-0 gx-5 pt-5 ">
                     <div class="col-lg-12">
                         <div class="mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
                             <h1 class="mb-3 text-center text-dark-custom ">Our Projects</h1>
@@ -298,6 +299,7 @@
                     </div>
 
                 </div>
+            </div>
             </div>
         </div>
         <!-- Property List End -->

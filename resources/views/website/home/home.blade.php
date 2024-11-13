@@ -90,7 +90,7 @@
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-3 col-sm-6  wow fadeInUp" data-wow-delay="0.1s">
-                        <a class="cat-item d-block bg-custom text-center rounded" href="{{route('web-dev')}}">
+                        <a class="cat-item d-block custom-shadow bg-custom text-center rounded" href="{{route('web-dev')}}">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
                                     <!-- <img class="img-fluid" src="img/icon-apartment.png" alt="Icon"> -->
@@ -102,7 +102,7 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <a class="cat-item d-block bg-custom text-center rounded" href="{{route('seo')}}">
+                        <a class="cat-item d-block custom-shadow bg-custom text-center rounded" href="{{route('seo')}}">
                             <div class="rounded p-4">
                                 <div class="icon bg-dark mb-3">
                                     <!-- <img class="img-fluid" src="img/icon-apartment.png" alt="Icon"> -->
@@ -114,7 +114,7 @@
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <a class="cat-item d-block bg-custom text-center rounded" href="{{route('shopify')}}">
+                        <a class="cat-item d-block custom-shadow bg-custom text-center rounded" href="{{route('shopify')}}">
                             <div class="rounded  p-4">
                                 <div class="icon mb-3">
                                     <!-- <img class="img-fluid" src="img/icon-apartment.png" alt="Icon"> -->
@@ -125,7 +125,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="col-lg-3 col-sm-6 custom-shadow wow fadeInUp" data-wow-delay="0.4s">
                         <a class="cat-item d-block bg-custom text-center rounded" href="{{route('api')}}">
                             <div class="rounded  p-4">
                                 <div class="icon mb-3">
@@ -137,7 +137,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-sm-6  wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="col-lg-3 col-sm-6 custom-shadow wow fadeInUp" data-wow-delay="0.5s">
                         <a class="cat-item d-block bg-custom text-center rounded" href="{{route('webdes')}}">
                             <div class="rounded  p-4">
                                 <div class="icon mb-3">
@@ -149,7 +149,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-sm-6  wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="col-lg-3 col-sm-6 custom-shadow wow fadeInUp" data-wow-delay="0.6s">
                         <a class="cat-item d-block bg-custom text-center rounded" href="{{route('office')}}">
                             <div class="rounded  p-4">
                                 <div class="icon mb-3">
@@ -161,7 +161,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="col-lg-3 col-sm-6 custom-shadow wow fadeInUp" data-wow-delay="0.7s">
                         <a class="cat-item d-block bg-custom text-center rounded" href="{{route('uiux')}}">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">
@@ -173,7 +173,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="col-lg-3 col-sm-6 custom-shadow wow fadeInUp" data-wow-delay="0.8s">
                         <a class="cat-item d-block bg-custom text-center rounded" href="{{route('mobile-apps')}}">
                             <div class="rounded p-4">
                                 <div class="icon mb-3">

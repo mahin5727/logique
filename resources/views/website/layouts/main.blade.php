@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="{{asset('website-assets/img/logo/logo.png')}}" rel="icon">
+    <link href="{{asset('website-assets/img/logo/favicon.ico')}}" rel="icon">
 
     <!-- Google Web Fonts -->
     

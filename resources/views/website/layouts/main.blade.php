@@ -51,7 +51,7 @@
         <!-- Navbar Start -->
         <div id="nav-con" class="container-fluid nav-bar">
             <nav class="navbar navbar-expand-lg navbar-light py-0 px-5">
-                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                <a href="{{route('home')}}" class="navbar-brand d-flex align-items-center text-center">
                     <img class="img-fluid p-0" src="{{asset('website-assets/img/logo/logique_new_logo.png')}}" alt="Icon" style="height: 40px;">
                 </a>
                 <button type="button" class="navbar-toggler text-white" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -94,7 +94,7 @@
                         <div class="col-lg-4 text-white col-md-6">
                             <h5 class="mb-4 text-white ">Get In Touch</h5>
                             <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Block E-2, Johar Town, Lahore</p>
-                            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>923084284858</p>
+                            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+923084284858</p>
                             <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@logiquellc.com</p>
                             <div class="d-flex pt-2">
                                 <a class="btn btn-outline-light btn-social" target="_blank" href="https://www.instagram.com/logique_llc?igsh=MTZrZHdlM3p1dXFzdA=="><i class="fab fa-instagram"></i></a>
@@ -103,11 +103,9 @@
                         </div>
                         <div class="col-lg-4 text-white col-md-6">
                             <h5 class="text-white mb-4">Quick Links</h5>
-                            <a class="btn btn-link " href="">About Us</a>
-                            <a class="btn btn-link" href="">Contact Us</a>
-                            <a class="btn btn-link" href="">Our Services</a>
-                            <a class="btn btn-link " href="">Privacy Policy</a>
-                            <a class="btn btn-link " href="">Terms & Condition</a>
+                            <a class="btn btn-link" href="{{route('about')}}">About Us</a>
+                            <a class="btn btn-link" href="{{route('contact')}}">Contact Us</a>
+                            <a class="btn btn-link" href="{{route('home')}}">Our Services</a>
                         </div>
                         <div class="col-lg-4 text-white col-md-6">
                             <img class="pb-4" src="{{asset('website-assets/img/logo/logique_new_logo.png')}}" width="250px" alt="">

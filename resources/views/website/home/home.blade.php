@@ -239,7 +239,7 @@
                                     <div class="article-card">
                                       <div class="content">
                                         <p class="date">Jan 1, 2022</p>
-                                        <p class="title">FLORIDA DRIVING </p>
+                                        <p class="title">Quirkiatry</p>
                                       </div>
                                       <img src="{{asset('website-assets/img/projects/quirky-top.jpg')}}" alt="article-cover" />
                                     </div>
@@ -261,7 +261,7 @@
                                     <div class="article-card">
                                       <div class="content">
                                         <p class="date">Jan 1, 2022</p>
-                                        <p class="title">BEN GP</p>
+                                        <p class="title">Finance Dashboard</p>
                                       </div>
                                       <img src="{{asset('website-assets/img/projects/Busines Finance-top.jpg')}}" alt="article-cover" />
                                     </div>
@@ -272,7 +272,7 @@
                                     <div class="article-card">
                                       <div class="content">
                                         <p class="date">Jan 1, 2022</p>
-                                        <p class="title">Granite Worktops</p>
+                                        <p class="title">Modern Dashboard</p>
                                       </div>
                                       <img src="{{asset('website-assets/img/projects/Modern Dashboard.png')}}" alt="article-cover" />
                                     </div>
@@ -284,7 +284,7 @@
                                     <div class="article-card">
                                       <div class="content">
                                         <p class="date">Jan 1, 2022</p>
-                                        <p class="title">Granite Worktops</p>
+                                        <p class="title">Asia Business Dashboard</p>
                                       </div>
                                       <img src="{{asset('website-assets/img/projects/Asia Business-top.jpg')}}" alt="article-cover" />
                                     </div>
@@ -320,8 +320,8 @@
                                     <h1 class="mb-3 text-custom">Contact With Our Certified Agent</h1>
                                     <p>Eirmod sed ipsum dolor sit rebum magna erat. Tempor lorem kasd vero ipsum sit sit diam justo sed vero dolor duo.</p>
                                 </div>
-                                <a href="{{route('contact')}}" class="btn btn-custom py-3 px-4 me-2"><i class="fa fa-phone-alt me-2"></i>Make A Call</a>
-                                <a href="{{route('contact')}}" class="btn btn-custom py-3 px-4"><i class="fa fa-calendar-alt me-2"></i>Get Appoinment</a>
+                                <a href="{{route('contact')}}" class="btn btn-custom py-3 px-4 mt-2 me-2"><i class="fa fa-phone-alt me-2"></i>Make A Call</a>
+                                <a href="{{route('contact')}}" class="btn btn-custom py-3 mt-2 px-4"><i class="fa fa-calendar-alt me-2"></i>Get Appoinment</a>
                             </div>
                         </div>
                     </div>

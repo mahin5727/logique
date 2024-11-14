@@ -52,7 +52,8 @@
                         <div class="position-relative">
                             <img class="img-fluid" src="{{asset('website-assets/img/team/ar.jpeg')}}" alt="">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/abdul-rehman-260aa8213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin"></i></a>
+                                <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/in/abdul-rehman-260aa8213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center  p-4 mt-3">
@@ -66,8 +67,7 @@
                         <div class="position-relative">
                             <img class="img-fluid" src="{{asset('website-assets/img/team/hamza.jpeg')}}" alt="">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin"></i></a>
+                                <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/in/hamza-zahid-1721b4310/"><i class="fab fa-linkedin"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
@@ -82,7 +82,6 @@
                         <div class="position-relative" >
                             <img class="img-fluid" src="{{asset('website-assets/img/team/asad.jpeg')}}"  alt="">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/in/asad-ahmad-667605209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
@@ -98,8 +97,7 @@
                         <div class="position-relative">
                             <img class="img-fluid" src="{{asset('website-assets/img/team/arslan.jpeg')}}" alt="">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin"></i></a>
+                                <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/in/arsalan-saghir-38550321b/"><i class="fab fa-linkedin"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
@@ -114,9 +112,7 @@
                         <div class="position-relative">
                             <img class="img-fluid" src="{{asset('website-assets/img/team/jibran.jpeg')}}" alt="">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4 mt-3">
@@ -130,9 +126,7 @@
                         <div class="position-relative">
                             <img class="img-fluid" src="{{asset('website-assets/img/team/daniyal.jpeg')}}" alt="">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4 mt-3">
@@ -146,9 +140,7 @@
                         <div class="position-relative" >
                             <img class="img-fluid" src="{{asset('website-assets/img/team/ayesha.jpeg')}}"  alt="">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4 mt-3">
@@ -162,9 +154,7 @@
                         <div class="position-relative">
                             <img class="img-fluid" src="{{asset('website-assets/img/team/sana.jpeg')}}" alt="">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4 mt-3">
@@ -178,9 +168,7 @@
                         <div class="position-relative">
                             <img class="img-fluid" src="{{asset('website-assets/img/team/mahin.jpeg')}}" alt="">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4 mt-3">
@@ -194,9 +182,7 @@
                         <div class="position-relative">
                             <img class="img-fluid" src="{{asset('website-assets/img/team/afaq.jpeg')}}" alt="">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4 mt-3">
@@ -210,9 +196,7 @@
                         <div class="position-relative">
                             <img class="img-fluid" src="{{asset('website-assets/img/team/amna.jpeg')}}" alt="">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4 mt-3">
@@ -226,9 +210,7 @@
                         <div class="position-relative">
                             <img class="img-fluid" src="{{asset('website-assets/img/team/ali.jpeg')}}" alt="">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-linkedin"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" target="_blank" href=""><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4 mt-3">

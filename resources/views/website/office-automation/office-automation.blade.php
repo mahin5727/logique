@@ -30,7 +30,7 @@
                                     </div>
                                 </div>
                                 <div class="col-8 align-items-center ">
-                                    <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/images/slide-three.jpg')}}"  alt="">
+                                    <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/office-automation.jpg')}}"  alt="">
                                 </div>
                                 <div class="col-4">
                                     <div class="card">

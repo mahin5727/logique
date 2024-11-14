@@ -196,13 +196,13 @@
 
 
         <!-- Property List Start -->
-        <div class="container-fluid mt-5 px-0 bg-image" style="background-image: url('website-assets/img/images/projects_img.png') !important; background-size: cover; background-position: center;">
+        <div class="container-fluid mt-5 px-0 " style="background-image: url('website-assets/img/images/projects_img.png') !important; background-size: cover; background-position: center;">
             <div style="background-color: rgba(255, 255, 255, 0); padding: 0; margin: 0;">
             <div class="container " >
             <div class="row g-0 gx-5 pt-5 ">
                     <div class="col-lg-12">
                         <div class="mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
-                            <h1 class="mb-3 text-center text-dark-custom ">Our Projects</h1>
+                            <h1 class="mb-3 text-center text-dark-custom bg-image">Our Projects</h1>
                             <!-- <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit diam justo sed rebum.</p> -->
                         </div>
                     </div>

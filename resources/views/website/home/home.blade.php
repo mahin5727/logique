@@ -230,7 +230,7 @@
                                         <p class="date">Jan 1, 2022</p>
                                         <p class="title">WDN</p>
                                       </div>
-                                      <img src="{{asset('website-assets/img/projects/WDN.PNG')}}" alt="article-cover" />
+                                      <img src="{{asset('website-assets/img/projects/WDN.png')}}" alt="article-cover" />
                                     </div>
                                 </div>
                             </div>

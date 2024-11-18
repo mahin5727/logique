@@ -18,8 +18,8 @@
                         </div>
                             <!-- Header End -->
                         <div class="container py-5">
-                            <div class="row gx-5 d-flex justify-content-center">
-                                <div class="col-4 px-4">
+                            <div class="row gx-0 d-flex justify-content-center">
+                                <div class="col-lg-4 col-12 px-4">
                                     <div class="card bg-dark-footer m-auto p-0">
                                         <div class="card-body">
                                             <p class="text-center text-white fw-bold fs-4">Need Help? Talk With Expert</p>
@@ -28,12 +28,7 @@
                                             <a href="tel:+923237988058" class="fs-5 fw-bold text-white text-center d-block py-4">+92 308 4284858</a>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-8 align-items-center ">
-                                    <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/web-design.jpg')}}"  alt="">
-                                </div>
-                                <div class="col-4">
-                                    <div class="card">
+                                    <div class="card mt-4 mb-3">
                                         <div class="card-body p-4">
                                             <p class=" fs-4 text-custom fw-bold">Other Services</p>
                                             <hr class="">
@@ -47,7 +42,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-8">
+                                <div class="col-lg-8 col-12 px-4 align-items-center ">
+                                    <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/web-design.jpg')}}"  alt="">
                                     <h1 class="h1 pt-5 text-custom">Ramp up Your Digital Identity with Our Web Design Services
                                     </h1>
                                     <p class="py-3">Our website design services are at the forefront of innovation and excellence, offering our clients a comprehensive solution to establish a strong online presence and drive their business growth. With a deep understanding of the latest trends and technologies, we create captivating and user-friendly websites that leave a lasting impression on visitors. At the heart of our approach is a meticulous design process that ensures every element of the website aligns with the client's brand identity and objectives.
@@ -64,7 +60,6 @@
                                         Furthermore, we also understand the dynamic nature of the online world and are committed to providing ongoing support and timely updates to keep our clients ahead of the competition. Hence, our website design services combine artistic creativity, technical expertise, and strategic thinking to create impactful online experiences. Whether it's a small business website, an e-commerce platform, or a complex web application, we have the skills and dedication to deliver exceptional results. With our focus on user-centric design, cutting-edge techniques, and a commitment to security and performance, we empower our clients to achieve their online goals and thrive in the digital landscape.
                                         </p>
                                 </div>
-                                
                             </div>
                         </div>
 @endsection

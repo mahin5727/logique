@@ -11,9 +11,13 @@ h1{
     "General Sans Placeholder",
     sans-serif;
 }
+.toast {
+    background-color: black;
+    color: white !important;
+}
 
 p {
-    text-align: justify;
+    text-align: left !important;
 }
 
 a:hover {
@@ -45,6 +49,17 @@ body {
     color: var(--primary);
 }
 
+.fiverr {
+    position: fixed;
+    display: none;
+    right: 57px;
+    bottom: 110px;
+    z-index: 99;
+    background-color: white !important;
+    width: 25px !important;
+    height: 35px !important;
+}
+
 .footer-link {
     color: white !important;
 }
@@ -68,7 +83,7 @@ body {
 }
 
 .owl-carousel .owl-stage-outer {
-    padding: 10px 15px
+    padding: 10px 15px;
 }
 
 .back-to-top {
@@ -560,7 +575,7 @@ a {
 .cat-item div {
     background: #FFFFFF;
     border: none;
-    transition: .5s;
+    transition: all 0.5s;
     color: var(--primary);
 }
 
@@ -574,7 +589,7 @@ a {
 }
 
 .cat-item div * {
-    transition: .5s;
+    transition: all 0.5s;
 }
 
 .cat-item:hover h6  {

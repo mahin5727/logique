@@ -18,8 +18,8 @@
                             </div>
                                 <!-- Header End -->
                             <div class="container py-5">
-                                <div class="row gx-5 d-flex justify-content-center">
-                                    <div class="col-4 px-4">
+                                <div class="row gx-0 d-flex justify-content-center">
+                                    <div class="col-lg-4 col-12 px-4">
                                         <div class="card bg-dark-footer m-auto p-0">
                                             <div class="card-body">
                                                 <p class="text-center text-white fw-bold fs-4">Need Help? Talk With Expert</p>
@@ -28,12 +28,7 @@
                                                 <a href="tel:+923237988058" class="fs-5 fw-bold text-white text-center d-block py-4">+92 308 4284858</a>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-8 align-items-center ">
-                                        <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/api-integration.jpg')}}"  alt="">
-                                    </div>
-                                    <div class="col-4">
-                                        <div class="card">
+                                        <div class="card mt-4 mb-3">
                                             <div class="card-body p-4">
                                                 <p class=" fs-4 text-custom fw-bold">Other Services</p>
                                                 <hr class="">
@@ -47,7 +42,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-8">
+                                    <div class="col-lg-8 col-12 px-4 align-items-center ">
+                                        <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/api-integration.jpg')}}"  alt="">
                                         <h1 class="h1 pt-5 text-custom">API Integration Services</h1>
                                         <p class="py-3">An API is a software that acts as a communication medium between two or more applications. In simpler words, It acts as an agent that conveys your message to the provider and then sends the response back to you. It is an interface that helps two applications to talk with each other through commands. API integrations empower businesses to integrate their programs with the latest industrial applications and automate their workflows. It ensures a seamless and consistent connection between several applications to achieve better results without spending time and effort. Our API integration services allow users to customize their services according to their needs. You will be able to add or remove features or analyze data according to their requirements. With the help of APIs, you can customize an application however you want and make chnages to it if necessary.
                                         </p>
@@ -55,7 +51,6 @@
                                         <p class="py-3">An API is a quick and premier solution to connect an external service and provide vital functions in the application. That’s the primary reason why the appropriate execution of an API is so crucial. We develop dedicated APIs but also integrate them for web applications. We make the communications between applications more secure and reliable. With our vast experience and proficiency in software development, we help businesses expand their capabilities and reduce costs.
                                             </p>
                                     </div>
-                                    
                                 </div>
                             </div>
 @endsection

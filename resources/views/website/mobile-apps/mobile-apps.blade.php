@@ -18,8 +18,8 @@
                         </div>
                             <!-- Header End -->
                         <div class="container py-5">
-                            <div class="row gx-5 d-flex justify-content-center">
-                                <div class="col-4 px-4">
+                            <div class="row gx-0 d-flex justify-content-center">
+                                <div class="col-lg-4 col-12 px-4">
                                     <div class="card bg-dark-footer m-auto p-0">
                                         <div class="card-body">
                                             <p class="text-center text-white fw-bold fs-4">Need Help? Talk With Expert</p>
@@ -28,12 +28,7 @@
                                             <a href="tel:+923237988058" class="fs-5 fw-bold text-white text-center d-block py-4">+92 308 4284858</a>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-8 align-items-center ">
-                                    <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/mobile-app.jpg')}}"  alt="">
-                                </div>
-                                <div class="col-4">
-                                    <div class="card">
+                                    <div class="card mt-4 mb-3">
                                         <div class="card-body p-4">
                                             <p class=" fs-4 text-custom fw-bold">Other Services</p>
                                             <hr class="">
@@ -47,7 +42,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-8">
+                                <div class="col-lg-8 col-12 px-4 align-items-center ">
+                                    <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/mobile-app.jpg')}}"  alt="">
                                     <h1 class="h1 pt-5 text-custom">Bring Your Ideas to Life with Our Cutting-Edge React App Development Services!</h1>
                                     <p class="py-3">In today's world where apps are essential, having an engaging and useful mobile application is not just nice to have, it's a must-have. It's how you connect with users, improve their experience, and stay competitive. At DevioTech, we prioritize app development, using React to create interactive and user-focused experiences that achieve goals.
                                     </p>
@@ -81,7 +77,6 @@
                                         Let's turn your innovative app idea into a reality. Contact us today for a free consultation and discover how our React app development services can propel your business forward.
                                     </p>
                                 </div>
-                                
                             </div>
                         </div>
 @endsection

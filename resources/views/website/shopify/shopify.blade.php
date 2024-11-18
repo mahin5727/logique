@@ -18,8 +18,8 @@
                         </div>
                             <!-- Header End -->
                         <div class="container py-5">
-                            <div class="row gx-5 d-flex justify-content-center">
-                                <div class="col-4 px-4">
+                            <div class="row gx-0 d-flex justify-content-center">
+                                <div class="col-lg-4 col-12 px-4">
                                     <div class="card bg-dark-footer m-auto p-0">
                                         <div class="card-body">
                                             <p class="text-center text-white fw-bold fs-4">Need Help? Talk With Expert</p>
@@ -28,12 +28,7 @@
                                             <a href="tel:+923237988058" class="fs-5 fw-bold text-white text-center d-block py-4">+92 308 4284858</a>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-8 align-items-center ">
-                                    <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/shopify.jpg')}}"  alt="">
-                                </div>
-                                <div class="col-4">
-                                    <div class="card">
+                                    <div class="card mt-4 mb-3">
                                         <div class="card-body p-4">
                                             <p class=" fs-4 text-custom fw-bold">Other Services</p>
                                             <hr class="">
@@ -47,7 +42,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-8">
+                                <div class="col-lg-8 col-12 px-4 align-items-center ">
+                                    <img class="pt-3 img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/shopify.jpg')}}"  alt="">
                                     <h1 class="h1 pt-5 text-custom">Enhanced sales and inventory management for your Online store</h1>
                                     <p class="py-3">Shopify incorporates an advanced CMS with various built-in features for security and customization. It is a complete package for your eCommerce site with the best options for integration for payment methods. It comes with automated solutions to streamline the data entry process and remove data duplication. It has marketing and social media promotion tools to promote your brand and increase sales.
                                     </p>
@@ -55,7 +51,6 @@
                                     <p class="py-3">Utilize our best-in-class Shopify development services to get a highly scalable and functional Shopify eCommerce store. We are a Shopify development company specializing in developing visually appealing and responsive Shopify stores. Our well-crafted customized solutions assist you in the design and management of your eCommerce store embracing growth and innovation. Our team of experienced Shopify developers is familiar with the latest updates in the Shopify and Shopify plus platforms to deliver secure, reliable, and flawless Shopify websites.
                                         </p>
                                 </div>
-                                
                             </div>
                         </div>
 @endsection

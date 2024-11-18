@@ -1,7 +1,7 @@
 @extends('website.layouts.main')
 @section('content')
-                       <!-- Header Start -->
-                       <div class="container-fluid header bg-custom px-0">
+                    <!-- Header Start -->
+                    <div class="container-fluid header bg-custom px-0">
                         <div class="row g-0 p-a container-fluid d-flex justify-content-center mt-5 pt-5 flex-column-reverse flex-md-row">
                             <div class="col-md-12 p-5 align-items-center mt-lg-5">
                                 <h1 class="display-4 text-center text-white wow animated fadeIn mb-4">SEO Service</h1>
@@ -16,10 +16,10 @@
                         </div>
                         <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/slide-one.jpg')}}" alt="">
                     </div>
-                        <!-- Header End -->
+                    <!-- Header End -->
                     <div class="container py-5">
-                        <div class="row gx-5 d-flex justify-content-center">
-                            <div class="col-4 px-4">
+                        <div class="row gx-0 d-flex justify-content-center">
+                            <div class="col-lg-4 col-12 px-4">
                                 <div class="card bg-dark-footer m-auto p-0">
                                     <div class="card-body">
                                         <p class="text-center text-white fw-bold fs-4">Need Help? Talk With Expert</p>
@@ -28,12 +28,7 @@
                                         <a href="tel:+923237988058" class="fs-5 fw-bold text-white text-center d-block py-4">+92 308 4284858</a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-8 align-items-center ">
-                                <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/seo.jpg')}}"  alt="">
-                            </div>
-                            <div class="col-4">
-                                <div class="card">
+                                <div class="card mt-4 mb-3">
                                     <div class="card-body p-4">
                                         <p class=" fs-4 text-custom fw-bold">Other Services</p>
                                         <hr class="">
@@ -47,7 +42,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-8">
+                            <div class="col-lg-8 col-12 px-4 align-items-center ">
+                                <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/seo.jpg')}}"  alt="">
                                 <h1 class="h1 pt-5 text-custom">Attract More Traffic and Increase your Revenues</h1>
                                 <p class="py-3">Attracting more traffic and increasing revenues are vital goals for any business operating in the digital landscape. With our comprehensive SEO services, we can help businesses achieve these objectives by optimizing their online presence and improving their search engine rankings.
                                 <br><br>
@@ -66,7 +62,6 @@
                                 Hence, through a comprehensive approach that encompasses on-page optimization, off-page optimization, keyword research, and continuous monitoring, we empower businesses to stay ahead of the competition in the digital realm.
                                     </p>
                             </div>
-                            
                         </div>
                     </div>
         

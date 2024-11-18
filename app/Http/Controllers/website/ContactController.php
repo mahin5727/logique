@@ -14,23 +14,34 @@ class ContactController extends Controller
 
     public function postmessage(Request $request)
     {
+        $this->validate($request, [
+            'name' => ['required'],
+            'email' => ['required'],
+            'subject' => ['required'],
+            'message' => ['required']
+        ]);
         Contact::create([
             'name' => $request->name,
             'email' => $request->email,
             'subject' => $request->subject,
             'message' => $request->message
         ]);
-        return back();
+        return back()->with(['success' => 'Your request has been submitted']);
     }
 
     public function posturl(Request $request)
     {
+        $this->validate($request, [
+            'name' => ['required'],
+            'email' => ['required'],
+            'url' => ['required']
+        ]);
         Contact::create([
             'name' => $request->name,
             'email' => $request->email,
             'subject' => $request->url,
             'message' => 'null',
         ]);
-        return back();
+        return back()->with(['success' => 'Your request has been submitted']);
     }
 }

@@ -18,8 +18,8 @@
                         </div>
                             <!-- Header End -->
                         <div class="container py-5">
-                            <div class="row gx-5 d-flex justify-content-center">
-                                <div class="col-4 px-4">
+                            <div class="row gx-0 d-flex justify-content-center">
+                                <div class="col-lg-4 col-12 px-4">
                                     <div class="card bg-dark-footer m-auto p-0">
                                         <div class="card-body">
                                             <p class="text-center text-white fw-bold fs-4">Need Help? Talk With Expert</p>
@@ -28,12 +28,7 @@
                                             <a href="tel:+923237988058" class="fs-5 fw-bold text-white text-center d-block py-4">+92 308 4284858</a>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-8 align-items-center ">
-                                    <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/ui-ux.jpg')}}"  alt="">
-                                </div>
-                                <div class="col-4">
-                                    <div class="card">
+                                    <div class="card mt-4 mb-3">
                                         <div class="card-body p-4">
                                             <p class=" fs-4 text-custom fw-bold">Other Services</p>
                                             <hr class="">
@@ -47,7 +42,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-8">
+                                <div class="col-lg-8 col-12 px-4 align-items-center ">
+                                    <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/ui-ux.jpg')}}"  alt="">
                                     <h1 class="h1 pt-5 text-custom">Craft Seamless User Experiences with Our UI/UX Design Services</h1>
                                     <p class="py-3">Logique understands that user experience (UX) is the bedrock of any successful website or application. Our skilled UI/UX designers craft interfaces that are both aesthetically pleasing and intuitively functional, ensuring your users navigate with ease and achieve their goals effortlessly.
                                     </p>
@@ -84,8 +80,7 @@
                                             <b>Boosted conversions:</b> Intuitive navigation and a smooth user journey lead to improved conversion rates.
                                         </li>
                                     </ul>
-                                </div>
-                                
+                                </div>  
                             </div>
                         </div>
 @endsection

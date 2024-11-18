@@ -18,8 +18,8 @@
             </div>
                 <!-- Header End -->
             <div class="container py-5">
-                <div class="row gx-5 d-flex justify-content-center">
-                    <div class="col-4 px-4">
+                <div class="row gx-0 d-flex justify-content-center">
+                    <div class="col-lg-4 col-md-4 col-12 px-4">
                         <div class="card bg-dark-footer m-auto p-0">
                             <div class="card-body">
                                 <p class="text-center text-white fw-bold fs-4">Need Help? Talk With Expert</p>
@@ -28,12 +28,7 @@
                                 <a href="tel:+923237988058" class="fs-5 fw-bold text-white text-center d-block py-4">+92 308 4284858</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-8 align-items-center ">
-                        <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/images/slide-three.jpg')}}"  alt="">
-                    </div>
-                    <div class="col-4">
-                        <div class="card">
+                        <div class="card mt-4 mb-3">
                             <div class="card-body p-4">
                                 <p class=" fs-4 text-custom fw-bold">Other Services</p>
                                 <hr class="">
@@ -47,7 +42,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-8">
+                    <div class="col-lg-8 col-12 px-4 align-items-center ">
+                        <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/web-development.jpg')}}"  alt="">
                         <h1 class="h1 pt-5 text-custom">Establish your strong online presence with us now!</h1>
                         <p class="py-3">In today's increasingly digital world, having a strong online presence is crucial for individuals and businesses alike. Your digital identity, represented by your website, plays a significant role in shaping how others perceive you and your brand. If you're looking to enhance your online presence, ramping up your digital identity through professional web development services is the way to go.
                         <br><br>
@@ -61,6 +57,10 @@
                         <br><br>
                         In addition to web development, we also offer a range of complementary services to further enhance your digital identity. We take a holistic approach to ensure that all aspects of your online presence work together seamlessly to create a cohesive and impactful digital identity. Therefore, ramping up your digital identity through professional web development services is essential in today's digital landscape. For that, we have the expertise and knowledge to create visually stunning, highly functional, and secure websites that truly reflect your brand and drive meaningful results, and with our comprehensive range of services, we can help you establish a strong online presence that stands out in the competitive digital world.
                             </p>
+                    </div>
+                   
+                    <div class="col-8">
+                       
                     </div>
                     
                 </div>

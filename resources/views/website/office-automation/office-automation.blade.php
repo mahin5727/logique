@@ -18,8 +18,8 @@
                         </div>
                             <!-- Header End -->
                         <div class="container py-5">
-                            <div class="row gx-5 d-flex justify-content-center">
-                                <div class="col-4 px-4">
+                            <div class="row gx-0 d-flex justify-content-center">
+                                <div class="col-lg-4 col-12 px-4">
                                     <div class="card bg-dark-footer m-auto p-0">
                                         <div class="card-body">
                                             <p class="text-center text-white fw-bold fs-4">Need Help? Talk With Expert</p>
@@ -28,12 +28,7 @@
                                             <a href="tel:+923237988058" class="fs-5 fw-bold text-white text-center d-block py-4">+92 308 4284858</a>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-8 align-items-center ">
-                                    <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/office-automation.jpg')}}"  alt="">
-                                </div>
-                                <div class="col-4">
-                                    <div class="card">
+                                    <div class="card mt-4 mb-3">
                                         <div class="card-body p-4">
                                             <p class=" fs-4 text-custom fw-bold">Other Services</p>
                                             <hr class="">
@@ -47,7 +42,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-8">
+                                <div class="col-lg-8 col-12 px-4 align-items-center ">
+                                    <img class="img-fluid rounded-2  w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/office-automation.jpg')}}"  alt="">
                                     <h1 class="h1 pt-5 text-custom">Streamline Your Repetitive and Data Processing Tasks
                                     </h1>
                                     <p class="py-3">Microsoft Excel is a powerful and inexpensive business intelligence software. It comes with features for creating dashboards that provide valuable business details. These dashboards consist of visualizations, charts, and tables to process accurate information at the click of a button. Businesses use MS Excel to automate their day-to-day activities to save time and maximize their performance. However, working with MS Excel is not an easy task for those with little or no knowledge.
@@ -64,7 +60,6 @@
                                     <p class="py-3">We empower businesses make superior decisions with help of automated dashboards for evaluating valuable and accurate data. An improve your business processes according to customer for better customer experience and satisfaction. Our Google Form/Sheet services help businesses to quick overview of data in short time without examining much data.
                                         </p>
                                 </div>
-                                
                             </div>
                         </div>
 @endsection

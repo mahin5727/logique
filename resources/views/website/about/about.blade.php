@@ -31,10 +31,8 @@
                         <h1 class="mb-4 text-custom">About Us</h1>
                         <p class="mb-4">Our Team Consists Of Highly Skilled Software Developers In the USA And UK With Vast Experience And Deep Knowledge Of The Latest Technologies. We Are Committed To Delivering First-Class Software Solutions To Help Companies Achieve Their Digital Transformation Goals. Software Technology Is Our Strength, And Creating Value For Our Clients Is Our Passion. We Strive To Make A Difference With Fairness And Innovation To Deliver The Perfect Digital Solution In The Market. Our Core Competency Lies In Web Development, API Integration, Shopify App Design, SEO, GIS Mapping, And Google Sheets Or Forms In USA And UK.</p>
                         <p><i class="fa fa-check text-custom me-3"></i>Mission: We deliver Uniqueness and Quality.</p>
-                        <p><i class="fa fa-check text-custom me-3"></i>
-                            Skills: Delivering fast and excellent results.</p>
-                        <p><i class="fa fa-check text-custom me-3"></i>
-                            Clients: Satisfied clients thanks to our experience.</p>
+                        <p><i class="fa fa-check text-custom me-3"></i>Skills: Delivering fast and excellent results.</p>
+                        <p><i class="fa fa-check text-custom me-3"></i>Clients: Satisfied clients thanks to our experience.</p>
                         <!-- <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a> -->
                     </div>
                 </div>

@@ -7,8 +7,7 @@
                         <h1 class="display-4 text-center text-white wow animated fadeIn mb-4">Web Development</h1>
                         <nav aria-label="breadcrumb align-items-center animated fadeIn">
                             <ol class="breadcrumb justify-content-center text-uppercase">
-                                <li class="breadcrumb-item  text-center"><a class="text-white" href="#">Home</a></li>
-                                <li class="breadcrumb-item text-center"><a class=" text-white" href="#">Pages</a></li>
+                                <li class="breadcrumb-item  text-center"><a class="text-white" href="{{route('home')}}">Home</a></li>
                                 <li class="breadcrumb-item text-white text-center active" aria-current="page">Web Development</li>
                             </ol>
                         </nav>
@@ -44,19 +43,36 @@
                     </div>
                     <div class="col-lg-8 col-12 px-4 align-items-center ">
                         <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/web-development.jpg')}}"  alt="">
-                        <h1 class="h1 pt-5 text-custom">Establish your strong online presence with us now!</h1>
-                        <p class="py-3">In today's increasingly digital world, having a strong online presence is crucial for individuals and businesses alike. Your digital identity, represented by your website, plays a significant role in shaping how others perceive you and your brand. If you're looking to enhance your online presence, ramping up your digital identity through professional web development services is the way to go.
-                        <br><br>
-                        At Logique, we understand the importance of a visually appealing, user-friendly, and functional website. We specialize in providing top-notch web development services that cater to the unique needs of our clients. Whether you're an entrepreneur, a small business owner, or a large corporation, we have the expertise to create a website that truly reflects your brand and drives meaningful results. Our team of skilled web developers is well-versed in leveraging the power of Laravel, one of the most popular PHP frameworks, to build dynamic and feature-rich websites that elevate your online presence. With Laravel, we can build scalable and secure web solutions that align with your specific business needs
-                        </p>
-                        <h2 class="h2 pt-2 text-custom">Get our website development services
-                        </h2>
-                        <p class="py-3">Moreover, our experienced web developers combine their technical expertise with the latest industry standards to build websites that are not only visually appealing but also highly functional and user-friendly. We also understand the significance of search engine optimization (SEO) in driving organic traffic to your website. Our team incorporates SEO best practices into the development process, ensuring that your website is optimized for search engines and has a better chance of ranking higher in search results. This helps increase your online visibility and attract more potential customers to your site.
-                        <br><br>
-                        Security is another paramount concern when it comes to web development. With the rise in cyber threats, protecting your website and user data is of utmost importance. For this, our team implements robust security measures to safeguard your website against potential vulnerabilities, ensuring that your visitors can browse and interact with your site with peace of mind.
-                        <br><br>
-                        In addition to web development, we also offer a range of complementary services to further enhance your digital identity. We take a holistic approach to ensure that all aspects of your online presence work together seamlessly to create a cohesive and impactful digital identity. Therefore, ramping up your digital identity through professional web development services is essential in today's digital landscape. For that, we have the expertise and knowledge to create visually stunning, highly functional, and secure websites that truly reflect your brand and drive meaningful results, and with our comprehensive range of services, we can help you establish a strong online presence that stands out in the competitive digital world.
-                            </p>
+                        <h1 class="h1 pt-5 text-custom">Welcome to our professional web development service!</h1>
+                        <p class="py-3">Are you looking to create a stunning, custom website that stands out? Whether you need a brand-new site, a redesign, or enhancements to your existing site, we got you covered. Our team specializes in:</p>
+                        <ul>
+                            <li class="mt-1">
+                                <b>Custom Website Development:</b> Tailored to your unique needs and goals.
+                            </li>
+                            <li class="mt-1">
+                                <b>Responsive Design:</b> Ensuring your site looks great on all devices.
+
+                            </li> 
+                            <li class="mt-1">
+                                <b>Redesign Services: </b>Giving your current site a fresh, modern look.
+                            </li>
+                            <li class="mt-1">
+                                <b>Data Visualization: </b>Insightful admin panel with visual data representation.
+                            </li>
+                            <li class="mt-1">
+                                <b>Content Management System (CMS): </b>Easy-to-use interface for managing your content.
+                            </li>
+                            <li class="mt-1">
+                                <b>Admin Functionalities: </b>Comprehensive tools for site administration
+                            </li>
+                        </ul>
+                        <h2 class="h2 pt-2 text-custom">Why Choose Us?</h2>
+                        <ul class="">
+                            <li class="mt-2"><b>Expert Team: </b>Skilled developers and designers with years of experience.</li>
+                            <li class="mt-1"><b>Quality Assurance:  </b>Rigorous testing to ensure your site is flawless.</li>
+                            <li class="mt-1"><b>Customer Satisfaction:  </b>We work closely with you to meet your expectations.</li>
+                        </ul>
+                        <p class="h5 mt-5 text-custom text-center fw-bold">Lets bring your vision to life! Contact us today to get started</p>
                     </div>
                    
                     <div class="col-8">

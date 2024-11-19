@@ -68,10 +68,10 @@
                     </div>
                     <div class="col-lg-6 text-dark wow fadeIn" data-wow-delay="0.5s">
                         <h2 class="h1 mb-4 text-custom">About Us</h2>
-                        <p class="mb-4" style="text-align: justify">Our Team Consists Of Highly Skilled Software Developers In the USA And UK With Vast Experience And Deep Knowledge Of The Latest Technologies. We Are Committed To Delivering First-Class Software Solutions To Help Companies Achieve Their Digital Transformation Goals. Software Technology Is Our Strength, And Creating Value For Our Clients Is Our Passion. We Strive To Make A Difference With Fairness And Innovation To Deliver The Perfect Digital Solution In The Market. Our Core Competency Lies In Web Development, API Integration, Shopify App Design, SEO, GIS Mapping, And Google Sheets Or Forms In USA And UK.</p>
-                        <p><i class="fa fa-check text-custom me-3"></i>Mission: We deliver Uniqueness and Quality.</p>
-                        <p><i class="fa fa-check text-custom me-3"></i>Skills: Delivering fast and excellent results.</p>
-                        <p><i class="fa fa-check text-custom me-3"></i>Clients: Satisfied clients thanks to our experience.</p>
+                        <p class="mb-4" style="text-align: justify">Are you ready to elevate your business and thrive in the dynamic digital landscape? Our IT company offers a full suite of services to help you build a strong and impactful online presence. From innovative web design and development to SEO and mobile app solutions, we turn your vision into reality. But we don’t stop there—our team is dedicated to providing ongoing support to ensure your digital success continues to grow. Let us be your trusted partner in transforming your business for the future.</p>
+                        <p><i class="fa fa-check text-custom me-3"></i><b>Mission:</b>  Transforming ideas into innovative digital solutions.</p>
+                        <p><i class="fa fa-check text-custom me-3"></i><b>Skills:</b> Skilled developers and designers with years of experience.</p>
+                        <p><i class="fa fa-check text-custom me-3"></i><b>Clients:</b> Over 100+ satisfied clients and counting.</p>
                     </div>
                 </div>
             </div>
@@ -79,11 +79,11 @@
         <!-- About End -->
 
         <!-- Category Start -->
-        <div class="container-fluid mb-5 py-5">
+        <div id="Services" class="container-fluid mb-5 py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <h2 class="h1 mb-3 text-custom">Our Services</h2>
-                    <p>We Are IT Company With Extensive Experience And Specialization In Creating Custom Software Applications Designed To Suit Your Business Requirements In USA And UK.</p>
+                    <p class="text-center">Logique delivers cutting-edge enterprise solutions, custom software, web and mobile app development, and SEO-driven digital marketing to power your business growth.</p>
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-3 col-sm-6  wow fadeInUp" data-wow-delay="0.1s">
@@ -140,9 +140,9 @@
                         <a class="cat-item d-block bg-custom custom-shadow text-center rounded" href="{{route('office')}}">
                             <div class="rounded  p-4">
                                 <div class="icon mb-3">
-                                    <i class="fa fa-file-word text-light fa-3x"></i>
+                                    <i class="fa-brands fa-wordpress text-light fa-3x" aria-hidden="true"></i>
                                 </div>
-                                <h6 class="text-light">OFFICE AUTOMATION</h6>
+                                <h6 class="text-light">WORDPRESS</h6>
                             </div>
                         </a>
                     </div>
@@ -162,7 +162,7 @@
                                 <div class="icon mb-3">
                                     <i class="fa fa-mobile-alt text-light fa-3x"></i>
                                 </div>
-                                <h6 class="text-light">Mobile Apps</h6>
+                                <h6 class="text-light">MOBILE APPS</h6>
                             </div>
                         </a>
                     </div>
@@ -268,10 +268,10 @@
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                                 <img class="img-fluid rounded w-100" src="{{asset('website-assets/img/contact.jpeg')}}" alt="contact-agent">
                             </div>
-                            <div class="col-lg-6 mt-0 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                                 <div class="mb-4">
-                                    <h2 class="h1 mb-3 mt-0 text-custom">Contact With Our Certified Agent</h2>
-                                    <p>Eirmod sed ipsum dolor sit rebum magna erat. Tempor lorem kasd vero ipsum sit sit diam justo sed vero dolor duo.</p>
+                                    <h2 class="h1 mb-3 text-custom">Contact With Our Certified Agent</h2>
+                                    <p>Get in touch with our agent today to discuss your needs. Whether you prefer a call or an in-person appointment, we’re here to help you take the next step. Don’t wait let’s start building your success together.</p>
                                 </div>
                                 <a href="{{route('contact')}}" class="btn btn-custom py-3 px-4 mt-2 me-2"><i class="fa fa-phone-alt me-2"></i>Make A Call</a>
                                 <a href="{{route('contact')}}" class="btn btn-custom py-3 mt-2 px-4"><i class="fa fa-calendar-alt me-2"></i>Get Appoinment</a>
@@ -319,7 +319,7 @@
                         <div class="bg-dark-theme  border rounded p-4"  style="min-height: 240px;">
                             <p>"These guys were great! Very responsive, and easy to communicate with. Their work was very professional and of great quality!"</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded" src="{{asset('website-assets/img/testimonial-3.jpg')}}" style="width: 45px; height: 45px;">
+                                <img class="img-fluid flex-shrink-0 rounded" src="{{asset('website-assets/img/testimonial-4.jpg')}}" style="width: 45px; height: 45px;">
                                 <div class="ps-3">
                                     <h6 class="fw-bold mb-1 text-custom">Moeismail</h6>
                                     <small>CTO / Temp Hub</small>

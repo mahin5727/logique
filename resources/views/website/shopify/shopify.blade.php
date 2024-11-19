@@ -7,8 +7,7 @@
                                     <h1 class="display-4 text-center text-white wow animated fadeIn mb-4">Shopify</h1>
                                     <nav aria-label="breadcrumb align-items-center animated fadeIn">
                                         <ol class="breadcrumb justify-content-center text-uppercase">
-                                            <li class="breadcrumb-item  text-center"><a class="text-white" href="#">Home</a></li>
-                                            <li class="breadcrumb-item text-center"><a class=" text-white" href="#">Pages</a></li>
+                                            <li class="breadcrumb-item  text-center"><a class="text-white" href="{{route('home')}}">Home</a></li>
                                             <li class="breadcrumb-item text-white text-center active" aria-current="page">Shopify</li>
                                         </ol>
                                     </nav>
@@ -44,10 +43,10 @@
                                 </div>
                                 <div class="col-lg-8 col-12 px-4 align-items-center ">
                                     <img class="pt-3 img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/shopify.jpg')}}"  alt="">
-                                    <h1 class="h1 pt-5 text-custom">Enhanced sales and inventory management for your Online store</h1>
-                                    <p class="py-3">Shopify incorporates an advanced CMS with various built-in features for security and customization. It is a complete package for your eCommerce site with the best options for integration for payment methods. It comes with automated solutions to streamline the data entry process and remove data duplication. It has marketing and social media promotion tools to promote your brand and increase sales.
+                                    <h1 class="h1 pt-5 text-custom">Are you in search of a Shopify website to generate passive income?</h1>
+                                    <p class="py-3">We have certified Shopify experts with years of experience in crafting successful Shopify stores. We specialize in customizing complete Shopify stores, websites, and dropshipping setups from the ground up, turning your dreams into reality.
                                     </p>
-                                    <h2 class="h2 pt-2 text-custom">Our Shopify App Development Services</h2>
+                                    <h2 class="h2 pt-2 text-custom">What We Offer</h2>
                                     <p class="py-3">Utilize our best-in-class Shopify development services to get a highly scalable and functional Shopify eCommerce store. We are a Shopify development company specializing in developing visually appealing and responsive Shopify stores. Our well-crafted customized solutions assist you in the design and management of your eCommerce store embracing growth and innovation. Our team of experienced Shopify developers is familiar with the latest updates in the Shopify and Shopify plus platforms to deliver secure, reliable, and flawless Shopify websites.
                                         </p>
                                 </div>

@@ -50,7 +50,7 @@
 
 
         <!-- Navbar Start -->
-        <div id="nav-con" class="container-fluid nav-bar mx-0 px-0">
+        <div id="nav-con" class="container-fluid nav-bar">
             <nav class="navbar navbar-expand-lg navbar-light py-0 px-5">
                 <a href="{{route('home')}}" class="navbar-brand d-flex align-items-center text-center">
                     <img class="img-fluid p-0" src="{{asset('website-assets/img/logo/logique_new_logo.png')}}" alt="Icon" style="height: 40px;">
@@ -89,13 +89,13 @@
                     </div>
                     <div class="col-lg-4 text-white col-md-6 px-4">
                         <h5 class="text-white mb-4">Quick Links</h5>
-                        <a class="btn btn-link" href="{{route('about')}}">About Us</a>
-                        <a class="btn btn-link" href="{{route('contact')}}">Contact Us</a>
-                        <a class="btn btn-link" href="{{route('home')}}">Our Services</a>
+                        <p><a class="btn btn-link" href="{{route('about')}}"><i class="fa fa-angle-right"></i><i class="fa fa-angle-right me-2"></i>About Us</a></p>
+                        <p><a class="btn btn-link" href="{{route('contact')}}"><i class="fa fa-angle-right"></i><i class="fa fa-angle-right me-2"></i>Contact Us</a></p>
+                        <p><a class="btn btn-link" href="{{route('home')}}#Services"><i class="fa fa-angle-right"></i><i class="fa fa-angle-right me-2"></i>Our Services</a></p>
                     </div>
                     <div class="col-lg-4 text-white col-md-6 px-4">
                         <img class="align-self-center pb-4" src="{{asset('website-assets/img/logo/logique_new_logo.png')}}" width="250px" alt="">
-                        <p class="text-lg-start  py-4">Our Core Competency Lies In Web Development, API Integration, Shopify App Design, SEO, GIS Mapping, And Google Sheets Or Forms In USA And UK.</p>
+                        <p class="text-lg-start  py-4">Our Core Competency Lies In Web Development, API Integration, Shopify App Design, SEO, GIS Mapping, And Google Sheets Or Forms.</p>
                     </div>
                 </div>
             </div>

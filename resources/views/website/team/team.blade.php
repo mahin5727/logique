@@ -7,8 +7,7 @@
                         <h1 class="display-4 text-center text-white wow animated fadeIn mb-4">Our Team</h1>
                         <nav aria-label="breadcrumb align-items-center animated fadeIn">
                             <ol class="breadcrumb justify-content-center text-uppercase">
-                                <li class="breadcrumb-item  text-center"><a class="text-white" href="#">Home</a></li>
-                                <li class="breadcrumb-item text-center"><a class=" text-white" href="#">Pages</a></li>
+                                <li class="breadcrumb-item  text-center"><a class="text-white" href="{{route('home')}}">Home</a></li>
                                 <li class="breadcrumb-item text-white text-center active" aria-current="page">Team</li>
                             </ol>
                         </nav>
@@ -88,7 +87,7 @@
                         </div>
                         <div class="text-center p-4 mt-3">
                             <h5 class="fw-bold text-custom mb-0">Asad Ahmad</h5>
-                            <small>Chief Technical Officer</small>
+                            <small>Project Manager</small>
                         </div>
                     </div>
                 </div>
@@ -103,35 +102,35 @@
                         </div>
                         <div class="text-center p-4 mt-3">
                             <h5 class="fw-bold text-custom mb-0">Arslan Sagheer</h5>
-                            <small>Project Manager</small>
+                            <small>Mobile App Developer</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('website-assets/img/team/jibran.jpeg')}}" alt="">
+                            <img class="img-fluid" src="{{asset('website-assets/img/team/mahin.jpeg')}}" alt="">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                 <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4 mt-3">
-                            <h5 class="fw-bold text-custom mb-0">Jibran Shakeel</h5>
-                            <small>Business Developer</small>
+                            <h5 class="fw-bold text-custom mb-0">Mahin Ahmad</h5>
+                            <small>Senior Web Developer</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('website-assets/img/team/daniyal.jpeg')}}" alt="">
+                            <img class="img-fluid" src="{{asset('website-assets/img/team/ali.jpeg')}}" alt="">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                 <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4 mt-3">
-                            <h5 class="fw-bold text-custom mb-0">Daniyal Shakeel</h5>
-                            <small>Business Developer</small>
+                            <h5 class="fw-bold text-custom mb-0">Ali Ahsan</h5>
+                            <small>Web Designer</small>
                         </div>
                     </div>
                 </div>
@@ -145,7 +144,7 @@
                         </div>
                         <div class="text-center p-4 mt-3">
                             <h5 class="fw-bold text-custom mb-0">Ayesha Zahid</h5>
-                            <small>Tech Lead</small>
+                            <small>UI / UX Designer</small>
                         </div>
                     </div>
                 </div>
@@ -159,21 +158,21 @@
                         </div>
                         <div class="text-center p-4 mt-3">
                             <h5 class="fw-bold text-custom mb-0">Sana Sagheer</h5>
-                            <small>Tech Lead</small>
+                            <small>Chief Technical Officer</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('website-assets/img/team/mahin.jpeg')}}" alt="">
+                            <img class="img-fluid" src="{{asset('website-assets/img/team/daniyal.jpeg')}}" alt="">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                 <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4 mt-3">
-                            <h5 class="fw-bold text-custom mb-0">Mahin Ahmad</h5>
-                            <small>Web Developer</small>
+                            <h5 class="fw-bold text-custom mb-0">Daniyal Shakeel</h5>
+                            <small>Business Developer Manager</small>
                         </div>
                     </div>
                 </div>
@@ -187,7 +186,7 @@
                         </div>
                         <div class="text-center p-4 mt-3">
                             <h5 class="fw-bold text-custom mb-0">Muhammad Afaq</h5>
-                            <small>Web Developer</small>
+                            <small>Digital Marketer </small>
                         </div>
                     </div>
                 </div>
@@ -208,14 +207,14 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('website-assets/img/team/ali.jpeg')}}" alt="">
+                            <img class="img-fluid" src="{{asset('website-assets/img/team/jibran.jpeg')}}" alt="">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                <a class="btn btn-square mx-1" target="_blank" href=""><i class="fab fa-linkedin"></i></a>
+                                <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4 mt-3">
-                            <h5 class="fw-bold text-custom mb-0">Ali Ahsan</h5>
-                            <small>Web Developer</small>
+                            <h5 class="fw-bold text-custom mb-0">Jibran Shakeel</h5>
+                            <small>Business Developer</small>
                         </div>
                     </div>
                 </div>

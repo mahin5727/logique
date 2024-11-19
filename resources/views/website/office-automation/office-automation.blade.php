@@ -7,9 +7,8 @@
                                     <h1 class="display-4 text-center text-white wow animated fadeIn mb-4">Office Automation</h1>
                                     <nav aria-label="breadcrumb align-items-center animated fadeIn">
                                         <ol class="breadcrumb justify-content-center text-uppercase">
-                                            <li class="breadcrumb-item  text-center"><a class="text-white" href="#">Home</a></li>
-                                            <li class="breadcrumb-item text-center"><a class=" text-white" href="#">Pages</a></li>
-                                            <li class="breadcrumb-item text-white text-center active" aria-current="page">Office Automation</li>
+                                            <li class="breadcrumb-item  text-center"><a class="text-white" href="{{route('home')}}">Home</a></li>
+                                            <li class="breadcrumb-item text-white text-center active" aria-current="page">WORDPRESS</li>
                                         </ol>
                                     </nav>
                                 </div>
@@ -44,21 +43,24 @@
                                 </div>
                                 <div class="col-lg-8 col-12 px-4 align-items-center ">
                                     <img class="img-fluid rounded-2  w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/office-automation.jpg')}}"  alt="">
-                                    <h1 class="h1 pt-5 text-custom">Streamline Your Repetitive and Data Processing Tasks
-                                    </h1>
-                                    <p class="py-3">Microsoft Excel is a powerful and inexpensive business intelligence software. It comes with features for creating dashboards that provide valuable business details. These dashboards consist of visualizations, charts, and tables to process accurate information at the click of a button. Businesses use MS Excel to automate their day-to-day activities to save time and maximize their performance. However, working with MS Excel is not an easy task for those with little or no knowledge.
-                                    </p>
-                                    <h2 class="h2 pt-2 text-custom">Our MS Excel VBA, Macros, And KPI Dashboard Services</h2>
-                                    <p class="py-3">We develop interactive and user-friendly user dashboards to organize and process data with an advanced Excel dashboard. Our Excel dashboard is perfectly designed to extract the precise without requiring technical skills from your side. Decrease manual work and diminish the chance of human mistakes with our modern Excel to dashboard services
-                                        </p>
-                                    <h2 class="h2 pt-2 text-custom">Analyze real consumer insights for better business decisions
-                                    </h2>
-                                    <p class="py-3">Google Sheets/Forms are mainly used for digital marketing, connecting with audiences, and generating leads. These tools can swift and reliable insights from visitors across the internet. You make better business decisions, figure out your marketing impact, and observe your brand reputation.
-                                        </p>
-
-                                    <h2 class="h2 pt-2 text-custom">Our Google Forms/Sheets Services</h2>
-                                    <p class="py-3">We empower businesses make superior decisions with help of automated dashboards for evaluating valuable and accurate data. An improve your business processes according to customer for better customer experience and satisfaction. Our Google Form/Sheet services help businesses to quick overview of data in short time without examining much data.
-                                        </p>
+                                    <h1 class="h1 pt-5 text-custom">Looking for a responsive and mobile-friendly WordPress website?</h1>
+                                    <p class="py-3">I will create a professional website tailored to your needs, ensuring it looks great on all devices and is easy to manage.</p>
+                                    <h2 class="h2 pt-2 text-custom">What We Offer?</h2>
+                                    <ul>
+                                        <li class="mt-1"><b>Custom WordPress Design: </b>Modern, clean, and professional.</li>
+                                        <li class="mt-1"><b>Fully Responsive:</b>Optimized for mobile, tablet, and desktop.</li>
+                                        <li class="mt-1"><b>User-Friendly Admin Panel: </b>Easily manage your site.</li>
+                                        <li class="mt-1"><b>Fast Loading Speed: </b>Improved performance and user experience.</li>
+                                        <li class="mt-1"><b>Basic SEO Optimization: </b>Boost visibility on search engines.</li>
+                                        <li class="mt-1"><b>Security Features: </b>Keeping your site secure.</li>
+                                        <li class="mt-1"><b>Essential Integrations: </b>Contact forms, social media, analytics, and more.</li>
+                                    </ul>
+                                    <h2 class="h2 pt-2 text-custom">Why Choose Us?</h2>
+                                    <ul>
+                                        <li class="mt-1">24/7 Support and 14 Days Free Post-Launch Assistance.</li>
+                                        <li class="mt-1">Friendly Service with guaranteed satisfaction.</li>
+                                    </ul>
+                                    <p class="text-custom text-center mt-5 fw-bold h5">Lets build your dream website together! Contact me for a free consultation or to test my expertise.</p>
                                 </div>
                             </div>
                         </div>

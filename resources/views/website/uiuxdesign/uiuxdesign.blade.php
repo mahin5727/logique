@@ -7,8 +7,7 @@
                                     <h1 class="display-4 text-center text-white wow animated fadeIn mb-4">UI / UX Design</h1>
                                     <nav aria-label="breadcrumb align-items-center animated fadeIn">
                                         <ol class="breadcrumb justify-content-center text-uppercase">
-                                            <li class="breadcrumb-item  text-center"><a class="text-white" href="#">Home</a></li>
-                                            <li class="breadcrumb-item text-center"><a class=" text-white" href="#">Pages</a></li>
+                                            <li class="breadcrumb-item  text-center"><a class="text-white" href="{{route('home')}}">Home</a></li>
                                             <li class="breadcrumb-item text-white text-center active" aria-current="page">UI / UX Design</li>
                                         </ol>
                                     </nav>

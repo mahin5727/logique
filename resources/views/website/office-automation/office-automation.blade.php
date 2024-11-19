@@ -4,7 +4,7 @@
                           <div class="container-fluid header bg-custom px-0">
                             <div class="row g-0 p-a container-fluid d-flex justify-content-center mt-5 pt-5 flex-column-reverse flex-md-row">
                                 <div class="col-md-12 p-5 align-items-center mt-lg-5">
-                                    <h1 class="display-4 text-center text-white wow animated fadeIn mb-4">Office Automation</h1>
+                                    <h1 class="display-4 text-center text-white wow animated fadeIn mb-4">WordPress</h1>
                                     <nav aria-label="breadcrumb align-items-center animated fadeIn">
                                         <ol class="breadcrumb justify-content-center text-uppercase">
                                             <li class="breadcrumb-item  text-center"><a class="text-white" href="{{route('home')}}">Home</a></li>
@@ -13,7 +13,7 @@
                                     </nav>
                                 </div>
                             </div>
-                            <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/slide-one.jpg')}}" alt="">
+                            <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="">
                         </div>
                             <!-- Header End -->
                         <div class="container py-5">

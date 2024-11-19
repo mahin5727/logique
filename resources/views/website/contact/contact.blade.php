@@ -13,7 +13,7 @@
                         </nav>
                     </div>
                 </div>
-                <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/slide-one.jpg')}}" alt="">
+                <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="">
             </div>
             <!-- Header End -->
             

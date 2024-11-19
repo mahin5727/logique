@@ -13,7 +13,7 @@
                                     </nav>
                                 </div>
                             </div>
-                            <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/slide-one.jpg')}}" alt="">
+                            <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="">
                         </div>
                             <!-- Header End -->
                         <div class="container py-5">
@@ -35,7 +35,7 @@
                                             <a href="{{route('seo')}}" class="py-3 d-block hover-underline-animation ser-link transition"><i class="fa fa-angle-double-right text-custom fw-bold me-2"></i> <span>SEO</span></a>
                                             <a href="{{route('api')}}" class="py-3 d-block hover-underline-animation ser-link transition"><i class="fa fa-angle-double-right text-custom fw-bold me-2"></i> <span>API Integration</span></a>
                                             <a href="{{route('webdes')}}" class="py-3 d-block hover-underline-animation ser-link transition"><i class="fa fa-angle-double-right text-custom fw-bold me-2"></i> <span>Web Design</span></a>
-                                            <a href="{{route('office')}}" class="py-3 d-block hover-underline-animation ser-link transition"><i class="fa fa-angle-double-right text-custom fw-bold me-2"></i> <span>Office Automation</span></a>
+                                            <a href="{{route('office')}}" class="py-3 d-block hover-underline-animation ser-link transition"><i class="fa fa-angle-double-right text-custom fw-bold me-2"></i> <span>WordPress</span></a>
                                             <a href="{{route('uiux')}}" class="py-3 d-block hover-underline-animation ser-link transition"><i class="fa fa-angle-double-right text-custom fw-bold me-2"></i> <span>UI/UX Design</span></a>
                                             <a href="{{route('mobile-apps')}}" class="py-3 d-block hover-underline-animation ser-link transition"><i class="fa fa-angle-double-right text-custom fw-bold me-2"></i> <span>Mobile Apps</span></a>
                                         </div>
@@ -43,12 +43,25 @@
                                 </div>
                                 <div class="col-lg-8 col-12 px-4 align-items-center ">
                                     <img class="pt-3 img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/shopify.jpg')}}"  alt="">
-                                    <h1 class="h1 pt-5 text-custom">Are you in search of a Shopify website to generate passive income?</h1>
-                                    <p class="py-3">We have certified Shopify experts with years of experience in crafting successful Shopify stores. We specialize in customizing complete Shopify stores, websites, and dropshipping setups from the ground up, turning your dreams into reality.
+                                    <h1 class="h1 pt-5 text-custom">Elevate your online store's presence with a captivating Modern logo tailored for Shopify!</h1>
+                                    <p class="py-3">Are you ready to make a lasting impression on your customers and stand out in the crowded eCommerce marketplace? Look no further! I am here to provide you with a top-notch logo that enhances your credibility on platforms like Etsy, Amazon, and Shopify.As an experienced Shopify developer with 4 years of experience, I can create beautiful, secure, professional, and trustworthy Shopify dropshipping stores that accurately represent your brand and help generate good revenue.
                                     </p>
-                                    <h2 class="h2 pt-2 text-custom">What We Offer</h2>
-                                    <p class="py-3">Utilize our best-in-class Shopify development services to get a highly scalable and functional Shopify eCommerce store. We are a Shopify development company specializing in developing visually appealing and responsive Shopify stores. Our well-crafted customized solutions assist you in the design and management of your eCommerce store embracing growth and innovation. Our team of experienced Shopify developers is familiar with the latest updates in the Shopify and Shopify plus platforms to deliver secure, reliable, and flawless Shopify websites.
+                                    <h2 class="h2 pt-2 text-custom">My Approach:</h2>
+                                    <p class="py-3">I do not just look for the top 10 hot selling items on Aliexpress and send a list in an excel file like everyone else, I focus on quality. I need to understand why a product is doing well and how the overall niche is performing.I do my researches based on numbers and statistics. None of my results and decisions are made by emotions or gut feelings. I do detailed analyses with results that are well thought through.
                                         </p>
+                                    <h2 class="h2 pt-2 text-custom">What I Will Provide:</h2>
+                                    <ul>
+                                        <li><b>Unique Store Design</b></li>
+                                        <li><b>Complete Branding + Graphics Included</b></li>
+                                        <li><b>High-Converting Shopify Apps</b></li>
+                                        <li><b>Shopify Theme Customization</b></li>
+                                        <li><b>Shipping Methods & Payment Gateways</b></li>
+                                        <li><b>Product Title Optimization</b></li>
+                                        <li><b>SEO Optimization</b></li>
+                                        <li><b>Social Media Integration</b></li>
+                                        <li><b>Completely Free Support for 30 Days!</b></li>
+                                    </ul>
+                                        
                                 </div>
                             </div>
                         </div>

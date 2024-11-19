@@ -35,6 +35,6 @@ Route::get('/seo-services',[SeoController::class,'index'])->name('seo');
 Route::get('/shopify',[ShopifyController::class,'index'])->name('shopify');
 Route::get('/api=integration',[ApiController::class,'index'])->name('api');
 Route::get('/web-design',[WebDesignControlller::class,'index'])->name('webdes');
-Route::get('/office-automation',[OfficeController::class,'index'])->name('office');
+Route::get('/wordpress',[OfficeController::class,'index'])->name('office');
 Route::get('/uiux-design',[UiuxController::class,'index'])->name('uiux');
 Route::get('/mobile-apps',[MobileAppsController::class,'index'])->name('mobile-apps');

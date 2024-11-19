@@ -105,7 +105,7 @@
                         <div class="col-md-12 align-items-center text-white text-center mb-3 mb-md-0">
                             &copy; <a class=" border-bottom footer-link" href="#">2024</a>, All Right Reserved. 
                             <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                            Designed By <a class="border-bottom footer-link" href="https://htmlcodex.com">Logique</a>
+                            Designed By <a class="border-bottom footer-link" href="https://logiquellc.com/">Logique</a>
                         </div>
                     </div>
                 </div>

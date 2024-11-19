@@ -13,7 +13,7 @@
                                     </nav>
                                 </div>
                             </div>
-                            <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/slide-one.jpg')}}" alt="">
+                            <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="">
                         </div>
                             <!-- Header End -->
                         <div class="container py-5">
@@ -36,49 +36,53 @@
                                             <a href="{{route('shopify')}}" class="py-3 d-block hover-underline-animation ser-link transition"><i class="fa fa-angle-double-right text-custom fw-bold me-2"></i> <span>Shopify</span></a>
                                             <a href="{{route('api')}}" class="py-3 d-block hover-underline-animation ser-link transition"><i class="fa fa-angle-double-right text-custom fw-bold me-2"></i> <span>API Integration</span></a>
                                             <a href="{{route('webdes')}}" class="py-3 d-block hover-underline-animation ser-link transition"><i class="fa fa-angle-double-right text-custom fw-bold me-2"></i> <span>Web Design</span></a>
-                                            <a href="{{route('office')}}" class="py-3 d-block hover-underline-animation ser-link transition"><i class="fa fa-angle-double-right text-custom fw-bold me-2"></i> <span>Office Automation</span></a>
+                                            <a href="{{route('office')}}" class="py-3 d-block hover-underline-animation ser-link transition"><i class="fa fa-angle-double-right text-custom fw-bold me-2"></i> <span>WordPress</span></a>
                                             <a href="{{route('mobile-apps')}}" class="py-3 d-block hover-underline-animation ser-link transition"><i class="fa fa-angle-double-right text-custom fw-bold me-2"></i> <span>Mobile Apps</span></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-12 px-4 align-items-center ">
                                     <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/ui-ux.jpg')}}"  alt="">
-                                    <h1 class="h1 pt-5 text-custom">Craft Seamless User Experiences with Our UI/UX Design Services</h1>
-                                    <p class="py-3">Logique understands that user experience (UX) is the bedrock of any successful website or application. Our skilled UI/UX designers craft interfaces that are both aesthetically pleasing and intuitively functional, ensuring your users navigate with ease and achieve their goals effortlessly.
+                                    <h1 class="h1 pt-5 text-custom">Welcome to Our Professional UI/UX Design Service</h1>
+                                    <p class="py-3">Are you looking to create a visually appealing and user-friendly digital experience? Whether you're designing a new app, revamping your website, or enhancing an existing interface, we’re here to help. Our expert team specializes in:
                                     </p>
                                     <h2 class="h2 pt-2 text-custom">We focus on:</h2>
                                     <ul>
                                         <li>
-                                            <b>User-centric design:</b> We prioritize user needs and behavior through comprehensive research and prototyping, creating experiences that resonate deeply with your target audience.
+                                            <b>Custom UI/UX Design: </b> Crafting unique, intuitive interfaces tailored to your audience and goals.
                                         </li>
                                         <li>
-                                            <b>Visually compelling interfaces: </b>Our designers bring your brand identity to life with stunning visuals and intuitive layouts, fostering user engagement and trust.
+                                            <b>User-Centered Design: </b>Focusing on the needs and behaviors of your users to create seamless and engaging experiences.
+                                        </li>
+                                        <li>
+                                            <b>Responsive Design: </b>Designing interfaces that deliver a consistent experience across all devices.
+                                        </li>
+                                        <li>
+                                            <b>UX Research & Testing: </b>Conducting thorough research and usability testing to optimize the user experience.
+                                        </li>
+                                        <li>
+                                            <b>Prototyping & Wireframing: </b>Creating detailed wireframes and interactive prototypes to visualize your design concepts.
+                                        </li>
+                                        <li>
+                                            <b>UI Design Systems: </b>Developing scalable and consistent design systems to maintain coherence across your digital products.
                                         </li>
                                     </ul>
-                                    <p class="py-3"><b>Seamless flow and functionality:</b> We meticulously engineer user journeys, optimizing every interaction for clarity and efficiency, leading to improved conversions and user satisfaction.</p>
-                                    <h2 class="h2 pt-2 text-custom">Partner with Logique and witness</h2>
-                                    <p class="py-3">Logique understands that user experience (UX) is the bedrock of any successful website or application. Our skilled UI/UX designers craft interfaces that are both aesthetically pleasing and intuitively functional, ensuring your users navigate with ease and achieve their goals effortlessly.
-                                        </p>
+                                    <h2 class="h2 pt-2 text-custom">Why Choose Us?</h2>
                                     <ul>
                                         <li>
-                                            <b>User-centric design:</b> We prioritize user needs and behavior through comprehensive research and prototyping, creating experiences that resonate deeply with your target audience.
+                                            <b>Expert Team:</b>A team of skilled UI/UX designers with extensive experience in crafting user-friendly and beautiful interfaces.
                                         </li>
                                         <li>
-                                            <b>Visually compelling interfaces: </b>Our designers bring your brand identity to life with stunning visuals and intuitive layouts, fostering user engagement and trust.
+                                            <b>User-Focused Approach: </b>We prioritize your users' needs, ensuring that every design decision enhances usability and satisfaction.
+                                        </li>
+                                        <li>
+                                            <b>Quality Assurance: </b>We conduct rigorous testing and iterations to guarantee an optimal user experience.
+                                        </li>
+                                        <li>
+                                            <b>Customer Collaboration: </b>We work closely with you throughout the design process to ensure your vision is realized.
                                         </li>
                                     </ul>
-                                    <p class="py-3"><b>Seamless flow and functionality:</b> We meticulously engineer user journeys, optimizing every interaction for clarity and efficiency, leading to improved conversions and user satisfaction.</p>
-                                    <ul>
-                                        <li>
-                                            <b>Increased user engagement and retention:</b> A delightful user experience keeps users coming back for more.
-                                        </li>
-                                        <li>
-                                            <b>Enhanced brand image:</b> Well-designed interfaces reflect positively on your brand, fostering trust and loyalty.
-                                        </li>
-                                        <li>
-                                            <b>Boosted conversions:</b> Intuitive navigation and a smooth user journey lead to improved conversion rates.
-                                        </li>
-                                    </ul>
+                                    <p class="text-custom text-center mt-5 fw-bold h5">Let’s create an intuitive, visually stunning experience that will captivate your audience! Contact us today to get started.</p>
                                 </div>  
                             </div>
                         </div>

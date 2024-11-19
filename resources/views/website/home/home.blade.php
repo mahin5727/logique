@@ -273,7 +273,7 @@
                                     <h2 class="h1 mb-3 text-custom">Contact With Our Certified Agent</h2>
                                     <p>Get in touch with our agent today to discuss your needs. Whether you prefer a call or an in-person appointment, we’re here to help you take the next step. Don’t wait let’s start building your success together.</p>
                                 </div>
-                                <a href="{{route('contact')}}" class="btn btn-custom py-3 px-4 mt-2 me-2"><i class="fa fa-phone-alt me-2"></i>Make A Call</a>
+                                <a href="tel:+923084284858" class="btn btn-custom py-3 px-4 mt-2 me-2"><i class="fa fa-phone-alt me-2"></i>Make A Call</a>
                                 <a href="{{route('contact')}}" class="btn btn-custom py-3 mt-2 px-4"><i class="fa fa-calendar-alt me-2"></i>Get Appoinment</a>
                             </div>
                         </div>

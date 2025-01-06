@@ -1,7 +1,12 @@
 @extends('website.layouts.main')
+
+@section('title','Shopify Development Services | Build Your E-Commerce Store')
+@section('description', 'Create and scale your Shopify store. We specialize in custom themes, store setup, and integrations to drive sales.')
+@section('keywords', 'Shopify development, Shopify store design, e-commerce solutions, custom Shopify themes, Shopify integrations, build online store, Shopify experts, e-commerce platform')
+
 @section('content')
                           <!-- Header Start -->
-                          <div class="container-fluid header bg-custom px-0">
+                        <div class="container-fluid header bg-custom px-0">
                             <div class="row g-0 p-a container-fluid d-flex justify-content-center mt-5 pt-5 flex-column-reverse flex-md-row">
                                 <div class="col-md-12 p-5 align-items-center mt-lg-5">
                                     <h1 class="display-4 text-center text-white wow animated fadeIn mb-4">Shopify</h1>
@@ -13,7 +18,7 @@
                                     </nav>
                                 </div>
                             </div>
-                            <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="">
+                            <img class="img-fluid slider height" src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="banner">
                         </div>
                             <!-- Header End -->
                         <div class="container py-5">
@@ -42,7 +47,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-12 px-4 align-items-center ">
-                                    <img class="pt-3 img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/shopify.jpg')}}"  alt="">
+                                    <img class="pt-3 img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/shopify.jpg')}}" alt="shopify-title">
                                     <h1 class="h1 pt-5 text-custom">Elevate your online store's presence with a captivating Modern logo tailored for Shopify!</h1>
                                     <p class="py-3">Are you ready to make a lasting impression on your customers and stand out in the crowded eCommerce marketplace? Look no further! I am here to provide you with a top-notch logo that enhances your credibility on platforms like Etsy, Amazon, and Shopify.As an experienced Shopify developer with 4 years of experience, I can create beautiful, secure, professional, and trustworthy Shopify dropshipping stores that accurately represent your brand and help generate good revenue.
                                     </p>
@@ -61,7 +66,6 @@
                                         <li><b>Social Media Integration</b></li>
                                         <li><b>Completely Free Support for 30 Days!</b></li>
                                     </ul>
-                                        
                                 </div>
                             </div>
                         </div>

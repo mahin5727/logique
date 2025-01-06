@@ -1,19 +1,25 @@
+
 @extends('website.layouts.main')
+
+@section('title','Web Design Services | Stunning & Responsive Websites')
+@section('description', 'Design beautiful, responsive websites. We create user-friendly sites that elevate your brand and engage visitors.')
+@section('keywords', 'web design, professional web design, user-friendly design, custom website design, responsive web design, website redesign, creative web design, web design agency')
+
 @section('content')
                           <!-- Header Start -->
-                          <div class="container-fluid header bg-custom px-0">
+                        <div class="container-fluid header bg-custom px-0">
                             <div class="row g-0 p-a container-fluid d-flex justify-content-center mt-5 pt-5 flex-column-reverse flex-md-row">
                                 <div class="col-md-12 p-5 align-items-center mt-lg-5">
                                     <h1 class="display-4 text-center text-white wow animated fadeIn mb-4">Web Design</h1>
                                     <nav aria-label="breadcrumb align-items-center animated fadeIn">
                                         <ol class="breadcrumb justify-content-center text-uppercase">
-                                            <li class="breadcrumb-item  text-center"><a class="text-white" href="{{route('home')}}">Home</a></li>
+                                            <li class="breadcrumb-item text-center"><a class="text-white" href="{{route('home')}}">Home</a></li>
                                             <li class="breadcrumb-item text-white text-center active" aria-current="page">Web Design</li>
                                         </ol>
                                     </nav>
                                 </div>
                             </div>
-                            <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="">
+                            <img class="img-fluid slider height" src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="banner">
                         </div>
                             <!-- Header End -->
                         <div class="container py-5">
@@ -42,7 +48,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-12 px-4 align-items-center ">
-                                    <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/web-design.jpg')}}"  alt="">
+                                    <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/web-design.jpg')}}"  alt="web-design-title">
                                     <h1 class="h1 pt-5 text-custom">Welcome to Our Professional Web Design Service</h1>
                                     <p class="py-3">Looking to create a stunning, user-friendly website that captures attention and drives results? Whether you're launching a new site, revamping an existing one, or optimizing your online presence, we’re here to help. Our expert team specializes in:
                                     </p>

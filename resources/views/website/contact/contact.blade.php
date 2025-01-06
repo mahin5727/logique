@@ -1,4 +1,8 @@
 @extends('website.layouts.main')
+@section('title','Contact Us | Get in Touch with Logique')
+@section('description', 'Have questions? Contact Logique for expert web development, SEO, Shopify, and digital marketing solutions. We’re here to help your business grow.')
+@section('keywords', 'our team, web development experts, digital marketing team, Shopify developers, UI/UX specialists, mobile app developers, SEO professionals, meet our team, web design experts')
+
 @section('content')
             <!-- Header Start -->
             <div class="container-fluid header bg-custom px-0">
@@ -13,7 +17,7 @@
                         </nav>
                     </div>
                 </div>
-                <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="">
+                <img class="img-fluid slider height" src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="banner">
             </div>
             <!-- Header End -->
             

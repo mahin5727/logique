@@ -1,4 +1,9 @@
 @extends('website.layouts.main')
+
+@section('title','SEO Services | Boost Your Search Rankings & Visibility')
+@section('description', 'Improve rankings and traffic with expert SEO services. We tailor strategies to increase visibility and drive conversions.')
+@section('keywords', 'SEO services, search engine optimization, SEO strategies, increase website traffic, improve rankings, SEO experts, organic search, digital marketing, on-page SEO, off-page SEO')
+
 @section('content')
                     <!-- Header Start -->
                     <div class="container-fluid header bg-custom px-0">
@@ -13,7 +18,7 @@
                                 </nav>
                             </div>
                         </div>
-                        <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="">
+                        <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="banner">
                     </div>
                     <!-- Header End -->
                     <div class="container py-5">
@@ -42,7 +47,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-8 col-12 px-4 align-items-center ">
-                                <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/seo.jpg')}}"  alt="">
+                                <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/seo.jpg')}}"  alt="seo-title">
                                 <h1 class="h1 pt-5 text-custom">Boost Your Website Rankings with Our Monthly SEO Service!</h1>
                                 <p class="py-3">Are you struggling to get your website on the first page of search engines? Our expert agency is here to help! We provide comprehensive monthly SEO services designed to improve your site's visibility, drive organic traffic, and increase your rankings.
                                 </p>

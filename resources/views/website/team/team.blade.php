@@ -1,4 +1,9 @@
 @extends('website.layouts.main')
+
+@section('title','Our Team | Experts in Web Development & Digital Marketing')
+@section('description', 'Meet the talented team behind Logique. Our experts in web development, SEO, UI/UX design, and mobile apps work together to deliver exceptional results.')
+@section('keywords', 'web development, digital marketing, SEO services, Shopify development, API integration, WordPress design, UI/UX design, mobile app development, website design, e-commerce solutions, custom web development, SEO experts, digital marketing agency')
+
 @section('content')
                <!-- Header Start -->
                <div class="container-fluid header bg-custom px-0">
@@ -13,7 +18,7 @@
                         </nav>
                     </div>
                 </div>
-                <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="">
+                <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="banner">
             </div>
             <!-- Header End -->
 
@@ -25,7 +30,7 @@
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                             <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                                <img class="img-fluid w-100" src="{{asset('website-assets/img/team/ar.jpeg')}}">
+                                <img class="img-fluid w-100" src="{{asset('website-assets/img/team/ar.jpeg')}}" alt="chief-executive-officer">
                             </div>
                         </div>
                         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
@@ -49,10 +54,10 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('website-assets/img/team/ar.jpeg')}}" alt="">
+                            <img class="img-fluid" src="{{asset('website-assets/img/team/ar.jpeg')}}" alt="team-member">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                 <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/in/abdul-rehman-260aa8213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" target="_blank" href="https://www.instagram.com/abdurrehman08/profilecard/?igsh=MWMwMDNzbDVpY2E4bg=="><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center  p-4 mt-3">
@@ -64,10 +69,10 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('website-assets/img/team/hamza.jpeg')}}" alt="">
+                            <img class="img-fluid" src="{{asset('website-assets/img/team/hamza.jpeg')}}" alt="team-member">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                 <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/in/hamza-zahid-1721b4310/"><i class="fab fa-linkedin"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" target="_blank" href="https://www.instagram.com/__.hamzazahid?igsh=MWUxMWYzam0ybzRxMg=="><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4 mt-3">
@@ -79,10 +84,10 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="position-relative" >
-                            <img class="img-fluid" src="{{asset('website-assets/img/team/asad.jpeg')}}"  alt="">
+                            <img class="img-fluid" src="{{asset('website-assets/img/team/asad.jpeg')}}"  alt="team-member">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                 <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/in/asad-ahmad-667605209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" target="_blank" href="https://www.instagram.com/asad._.ah?igsh=Nmt0Y2dwYXBiZWN4"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4 mt-3">
@@ -94,10 +99,10 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('website-assets/img/team/arslan.jpeg')}}" alt="">
+                            <img class="img-fluid" src="{{asset('website-assets/img/team/arslan.jpeg')}}" alt="team-member">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                 <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/in/arsalan-saghir-38550321b/"><i class="fab fa-linkedin"></i></a>
-                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square mx-1" target="_blank" href="https://www.instagram.com/arsalan_saghir?igsh=MWY1ZTYzdjdzbjhmYw=="><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4 mt-3">
@@ -109,7 +114,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('website-assets/img/team/mahin.jpeg')}}" alt="">
+                            <img class="img-fluid" src="{{asset('website-assets/img/team/mahin.jpeg')}}" alt="team-member">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                 <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
                             </div>
@@ -123,7 +128,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('website-assets/img/team/ali.jpeg')}}" alt="">
+                            <img class="img-fluid" src="{{asset('website-assets/img/team/ali.jpeg')}}" alt="team-member">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                 <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
                             </div>
@@ -137,7 +142,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="position-relative" >
-                            <img class="img-fluid" src="{{asset('website-assets/img/team/ayesha.jpeg')}}"  alt="">
+                            <img class="img-fluid" src="{{asset('website-assets/img/team/ayesha.jpeg')}}"  alt="team-member">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                 <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
                             </div>
@@ -151,7 +156,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('website-assets/img/team/sana.jpeg')}}" alt="">
+                            <img class="img-fluid" src="{{asset('website-assets/img/team/sana.jpeg')}}" alt="team-member">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                 <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
                             </div>
@@ -165,7 +170,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('website-assets/img/team/daniyal.jpeg')}}" alt="">
+                            <img class="img-fluid" src="{{asset('website-assets/img/team/daniyal.jpeg')}}" alt="team-member">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                 <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
                             </div>
@@ -179,7 +184,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('website-assets/img/team/afaq.jpeg')}}" alt="">
+                            <img class="img-fluid" src="{{asset('website-assets/img/team/afaq.jpeg')}}" alt="team-member">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                 <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
                             </div>
@@ -193,7 +198,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('website-assets/img/team/amna.jpeg')}}" alt="">
+                            <img class="img-fluid" src="{{asset('website-assets/img/team/amna.jpeg')}}" alt="team-member">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                 <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
                             </div>
@@ -207,7 +212,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item rounded overflow-hidden">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('website-assets/img/team/jibran.jpeg')}}" alt="">
+                            <img class="img-fluid" src="{{asset('website-assets/img/team/jibran.jpeg')}}" alt="team-member">
                             <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                 <a class="btn btn-square mx-1" target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
                             </div>

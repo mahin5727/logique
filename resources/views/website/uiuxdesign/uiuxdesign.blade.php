@@ -1,4 +1,9 @@
 @extends('website.layouts.main')
+
+@section('title','UI/UX Design Services | Improve User Experience & Interfaces')
+@section('description', 'Create intuitive designs with our UI/UX services. We focus on user-centered design to enhance websites and apps.')
+@section('keywords', 'UI/UX design, user experience design, user interface design, responsive design, UX research, website user design, mobile app UI design, intuitive UI/UX design')
+
 @section('content')
                           <!-- Header Start -->
                           <div class="container-fluid header bg-custom px-0">
@@ -13,7 +18,7 @@
                                     </nav>
                                 </div>
                             </div>
-                            <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="">
+                            <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="banner">
                         </div>
                             <!-- Header End -->
                         <div class="container py-5">
@@ -42,7 +47,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-12 px-4 align-items-center ">
-                                    <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/ui-ux.jpg')}}"  alt="">
+                                    <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/ui-ux.jpg')}}"  alt="ui/ux-design-title">
                                     <h1 class="h1 pt-5 text-custom">Welcome to Our Professional UI/UX Design Service</h1>
                                     <p class="py-3">Are you looking to create a visually appealing and user-friendly digital experience? Whether you're designing a new app, revamping your website, or enhancing an existing interface, we’re here to help. Our expert team specializes in:
                                     </p>

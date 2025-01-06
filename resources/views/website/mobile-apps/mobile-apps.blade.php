@@ -1,4 +1,9 @@
 @extends('website.layouts.main')
+
+@section('title','Mobile App Development Services | iOS & Android Apps')
+@section('description', 'Build custom iOS and Android apps. We develop engaging, seamless apps to enhance user experience.')
+@section('keywords', 'mobile app development, custom mobile apps, iOS app development, Android app development, mobile app solutions, app development services, mobile application development  ')
+
 @section('content')
                           <!-- Header Start -->
                           <div class="container-fluid header bg-custom px-0">
@@ -13,7 +18,7 @@
                                     </nav>
                                 </div>
                             </div>
-                            <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="">
+                            <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="banner">
                         </div>
                             <!-- Header End -->
                         <div class="container py-5">
@@ -42,7 +47,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-12 px-4 align-items-center ">
-                                    <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/mobile-app.jpg')}}"  alt="">
+                                    <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/mobile-app.jpg')}}"  alt="mobile-apps-title">
                                     <h1 class="h1 pt-5 text-custom">Unlock the Power of Mobile with Flutter App Development!</h1>
                                     <p class="py-3">
                                         Are you looking to bring your app idea to life? Look no further! I specialize in creating stunning and high-performance mobile applications for both iOS and Android using Flutter.

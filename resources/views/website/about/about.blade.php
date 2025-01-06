@@ -1,4 +1,9 @@
 @extends('website.layouts.main')
+
+@section('title','About Us | Leading Web Development & Digital Marketing Agency')
+@section('description', 'Learn more about our team and mission at Logique. We specialize in web development, SEO, Shopify, and mobile apps to drive business growth.')
+@section('keywords', 'about us, web development agency, digital marketing agency, SEO experts, Shopify services, UI/UX design, mobile app developers, web development team, digital marketing solutions, innovative web solutions')
+
 @section('content')
             <!-- Header Start -->
             <div class="container-fluid header bg-custom px-0">
@@ -13,7 +18,7 @@
                         </nav>
                     </div>
                 </div>
-                <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="">
+                <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="banner">
             </div>
             <!-- Header End -->
             
@@ -23,7 +28,7 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                         <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                            <img class="img-fluid w-100" src="{{asset('website-assets/img/about-us.jpg')}}">
+                            <img class="img-fluid w-100" src="{{asset('website-assets/img/about-us.jpg')}}" alt="about-us">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
@@ -47,7 +52,7 @@
                     <div class="rounded bg-dark-theme p-4" style="border: none">
                         <div class="row g-5 align-items-center">
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                                <img class="img-fluid rounded w-100" src="{{asset('website-assets/img/contact.jpeg')}}" alt="">
+                                <img class="img-fluid rounded w-100" src="{{asset('website-assets/img/contact.jpeg')}}" alt="contact-agent">
                             </div>
                             <div class="col-lg-6  wow fadeIn" data-wow-delay="0.5s">
                                 <div class="mb-4">

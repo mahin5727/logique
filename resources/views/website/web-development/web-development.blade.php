@@ -1,4 +1,9 @@
 @extends('website.layouts.main')
+
+@section('title','Web Development Services | Custom Websites & Solutions')
+@section('description', 'Boost your business with custom web development. We create responsive websites and apps that drive growth and enhance user experience.')
+@section('keywords', 'web development, custom websites, web applications, web development services, e-commerce development, responsive web design, professional web development, custom web solutions')
+
 @section('content')
                    <!-- Header Start -->
             <div class="container-fluid header bg-custom px-0">
@@ -42,7 +47,7 @@
                         </div>
                     </div>
                     <div class="col-lg-8 col-12 px-4 align-items-center ">
-                        <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/web-development.jpg')}}"  alt="">
+                        <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/web-development.jpg')}}"  alt="web-development-title">
                         <h1 class="h1 pt-5 text-custom">Welcome to our professional web development service!</h1>
                         <p class="py-3">Are you looking to create a stunning, custom website that stands out? Whether you need a brand-new site, a redesign, or enhancements to your existing site, we got you covered. Our team specializes in:</p>
                         <ul>

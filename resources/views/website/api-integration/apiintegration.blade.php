@@ -1,4 +1,9 @@
 @extends('website.layouts.main')
+
+@section('title','API Integration Services | Seamless Integration Solutions')
+@section('description', 'Enhance functionality with custom API integration. We streamline data flow and improve website connectivity.')
+@section('keywords', 'API integration, API services, seamless API solutions, web integration services, custom API development, third-party API integration, website API integration')
+    
 @section('content')
                               <!-- Header Start -->
                               <div class="container-fluid header bg-custom px-0">
@@ -13,7 +18,7 @@
                                         </nav>
                                     </div>
                                 </div>
-                                <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="">
+                                <img class="img-fluid slider height" src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="banner">
                             </div>
                                 <!-- Header End -->
                             <div class="container py-5">
@@ -29,7 +34,7 @@
                                         </div>
                                         <div class="card mt-4 mb-3">
                                             <div class="card-body p-4">
-                                                <p class=" fs-4 text-custom fw-bold">Other Services</p>
+                                                <p class="fs-4 text-custom fw-bold">Other Services</p>
                                                 <hr class="">
                                                 <a href="{{route('web-dev')}}" class="py-3 d-block hover-underline-animation ser-link transition"><i class="fa fa-angle-double-right text-custom fw-bold me-2"></i> <span>Web Development</span></a>
                                                 <a href="{{route('seo')}}" class="py-3 d-block hover-underline-animation ser-link transition"><i class="fa fa-angle-double-right text-custom fw-bold me-2"></i> <span>SEO</span></a>
@@ -42,7 +47,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-8 col-12 px-4 align-items-center ">
-                                        <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/api-integration.jpg')}}"  alt="">
+                                        <img class="img-fluid rounded-2 w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/api-integration.jpg')}}"  alt="api-integration-title">
                                         <h1 class="h1 pt-5 text-custom">Welcome to Our Professional API Integration Service</h1>
                                         <p class="py-3">Are you looking to seamlessly connect your website or application with third-party services and tools? Whether you need to integrate payment gateways, social media platforms, CRM systems, or other APIs, we’ve got you covered. Our expert team specializes in:
                                         </p>

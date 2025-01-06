@@ -1,7 +1,12 @@
 @extends('website.layouts.main')
+
+@section('title','WordPress Development Services | Custom Websites & Themes')
+@section('description', 'Build powerful WordPress websites with custom themes and plugins. We offer scalable, secure solutions for your business.')
+@section('keywords', 'WordPress development, custom WordPress themes, WordPress website design, WordPress plugin development, WordPress development services, build WordPress site, WordPress experts')
+
 @section('content')
-                          <!-- Header Start -->
-                          <div class="container-fluid header bg-custom px-0">
+                        <!-- Header Start -->
+                        <div class="container-fluid header bg-custom px-0">
                             <div class="row g-0 p-a container-fluid d-flex justify-content-center mt-5 pt-5 flex-column-reverse flex-md-row">
                                 <div class="col-md-12 p-5 align-items-center mt-lg-5">
                                     <h1 class="display-4 text-center text-white wow animated fadeIn mb-4">WordPress</h1>
@@ -13,7 +18,7 @@
                                     </nav>
                                 </div>
                             </div>
-                            <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="">
+                            <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="banner">
                         </div>
                             <!-- Header End -->
                         <div class="container py-5">
@@ -42,7 +47,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-12 px-4 align-items-center ">
-                                    <img class="img-fluid rounded-2  w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/office-automation.jpg')}}"  alt="">
+                                    <img class="img-fluid rounded-2  w-100 shadow-sm wow fadeInDown" src="{{asset('website-assets/img/services/office-automation.jpg')}}"  alt="wordpress-title">
                                     <h1 class="h1 pt-5 text-custom">Looking for a responsive and mobile-friendly WordPress website?</h1>
                                     <p class="py-3">I will create a professional website tailored to your needs, ensuring it looks great on all devices and is easy to manage.</p>
                                     <h2 class="h2 pt-2 text-custom">What We Offer?</h2>

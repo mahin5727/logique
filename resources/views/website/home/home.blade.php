@@ -10,6 +10,10 @@
 </style>
 @endsection
 
+@section('title','Web Development & Digital Marketing Agency | Custom Solutions')
+@section('description', 'Transform your online presence with expert web development, SEO, Shopify, UI/UX design, and mobile app solutions tailored to your business needs.')
+@section('keywords', 'web development, digital marketing, SEO services, Shopify development, API integration, WordPress design, UI/UX design, mobile app development, website design, e-commerce solutions, custom web development, SEO experts, digital marketing agency')
+
 @section('content')
         <!-- Header Start -->
         <div class="container-fluid header p-0">
@@ -118,7 +122,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-6  wow fadeInUp" data-wow-delay="0.4s">
                         <a class="cat-item d-block bg-custom custom-shadow text-center rounded" href="{{route('api')}}">
-                            <div class="rounded  p-4">
+                            <div class="rounded p-4">
                                 <div class="icon mb-3">
                                     <i class="fa fa-code text-light fa-3x"></i>
                                 </div>
@@ -295,7 +299,7 @@
                         <div class="bg-dark bg-dark-theme border rounded p-4 " style="min-height: 240px;">
                             <p>"Fantastic team, we have been working together for over 8 months now. I’m excited about what we can do together in the future."</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded" src="{{asset('website-assets/img/testimonial-1.jpg')}}" style="width: 45px; height: 45px;">
+                                <img class="img-fluid flex-shrink-0 rounded" src="{{asset('website-assets/img/testimonial-1.jpg')}}" alt="profile-picture" style="width: 45px; height: 45px;">
                                 <div class="ps-3">
                                     <h6 class="fw-bold mb-1 text-custom">Ardalan</h6>
                                     <small>CEO / CHWG</small>
@@ -307,7 +311,7 @@
                         <div class="bg-dark-theme border rounded p-4 " style="min-height: 240px;">
                             <p>"Muhammad and his team did a great job! Their communication is excellent and they went the extra mile in fine-tuning and adjusting subjective aspects of the design. Their knowledge and experience are evident in the quality of their work"</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded" src="{{asset('website-assets/img/testimonial-2.jpg')}}" style="width: 45px; height: 45px;">
+                                <img class="img-fluid flex-shrink-0 rounded" src="{{asset('website-assets/img/testimonial-2.jpg')}}" alt="profile-picture" style="width: 45px; height: 45px;">
                                 <div class="ps-3">
                                     <h6 class="fw-bold mb-1 text-custom">Nicholas</h6>
                                     <small>CEO / Vision Gulf</small>
@@ -319,7 +323,7 @@
                         <div class="bg-dark-theme  border rounded p-4"  style="min-height: 240px;">
                             <p>"These guys were great! Very responsive, and easy to communicate with. Their work was very professional and of great quality!"</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded" src="{{asset('website-assets/img/testimonial-4.jpg')}}" style="width: 45px; height: 45px;">
+                                <img class="img-fluid flex-shrink-0 rounded" src="{{asset('website-assets/img/testimonial-4.jpg')}}" alt="profile-picture" style="width: 45px; height: 45px;">
                                 <div class="ps-3">
                                     <h6 class="fw-bold mb-1 text-custom">Moeismail</h6>
                                     <small>CTO / Temp Hub</small>
@@ -331,7 +335,7 @@
                         <div class="bg-dark-theme border rounded p-4 " style="min-height: 240px;">
                             <p>"3 months in and so far happy with the quality of SEO implemented .keywords are gradually going up in the ranks"</p>
                             <div class="d-flex align-items-center">
-                                <img class="img-fluid flex-shrink-0 rounded" src="{{asset('website-assets/img/testimonial-3.jpg')}}" style="width: 45px; height: 45px;">
+                                <img class="img-fluid flex-shrink-0 rounded" src="{{asset('website-assets/img/testimonial-3.jpg')}}" alt="profile-picture" style="width: 45px; height: 45px;">
                                 <div class="ps-3">
                                     <h6 class="fw-bold mb-1 text-custom">John McDonald</h6>
                                     <small>PM / Junk IT</small>

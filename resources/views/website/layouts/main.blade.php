@@ -3,13 +3,27 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Logique</title>
+    <title>@yield('title')</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="@yield('keywords')" name="keywords">
+    <meta content="@yield('description')" name="description">
 
     <!-- Favicon -->
     <link href="{{asset('website-assets/img/logo/favicon.ico')}}" rel="icon">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">   
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+
+    <link href="{{asset('blog-assets/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="{{asset('blog-assets/css/style.css')}}" rel="stylesheet">
+
 
     <!-- Google Web Fonts -->
     <link rel="stylesheet" type="text/css" href="{{asset('../../../app-assets/vendors/css/extensions/toastr.min.css')}}">
@@ -53,7 +67,7 @@
         <div id="nav-con" class="container-fluid nav-bar">
             <nav class="navbar navbar-expand-lg navbar-light py-0 px-5">
                 <a href="{{route('home')}}" class="navbar-brand d-flex align-items-center text-center">
-                    <img class="img-fluid p-0" src="{{asset('website-assets/img/logo/logique_new_logo.png')}}" alt="Icon" style="height: 40px;">
+                    <img class="img-fluid p-0" src="{{asset('website-assets/img/logo/logique_new_logo.png')}}" alt="Logo" style="height: 40px;">
                 </a>
                 <button type="button" class="navbar-toggler text-white" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -63,9 +77,9 @@
                         <a href="{{route('home')}}" class="nav-item nav-link {{Route::Is('home') ? 'active' : ''}}">Home</a>
                         <a href="{{route('about')}}" class="nav-item nav-link {{Route::Is('about') ? 'active' : ''}}">About</a>
                         <a href="{{route('team')}}" class="nav-item nav-link {{Route::Is('team') ? 'active' : ''}}">Team</a>
+                        <a href="{{route('blog')}}" class="nav-item nav-link {{Route::Is('blog') || Route::Is('blog-detail') ? 'active' : ''}}">Blog</a>
                         <a href="{{route('contact')}}" class="nav-item nav-link {{Route::Is('contact') ? 'active' : ''}}">Contact</a>
                     </div>
-                    {{-- <a href="" class="btn btn-custom px-3 d-none d-lg-flex">Add Property</a> --}}
                 </div>
             </nav>
         </div>
@@ -94,7 +108,7 @@
                         <p><a class="btn btn-link" href="{{route('home')}}#Services"><i class="fa fa-angle-right"></i><i class="fa fa-angle-right me-2"></i>Our Services</a></p>
                     </div>
                     <div class="col-lg-4 text-white col-md-6 px-4">
-                        <img class="align-self-center pb-4" src="{{asset('website-assets/img/logo/logique_new_logo.png')}}" width="250px" alt="">
+                        <img class="align-self-center pb-4" src="{{asset('website-assets/img/logo/logique_new_logo.png')}}" width="250px" alt="logo">
                         <p class="text-lg-start  py-4">Our Core Competency Lies In Web Development, API Integration, Shopify App Design, SEO, GIS Mapping, And Google Sheets Or Forms.</p>
                     </div>
                 </div>
@@ -118,6 +132,19 @@
         <a href="https://www.fiverr.com/logique_inc?source=gig_page" target="_blank" class="btn btn-lg btn-custom btn-lg-square fiverr px-0"><img src="{{asset('website-assets/img/logo/fiverr.png')}}" alt=""></a>
     </div>    
         <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="{{asset('blog-assets/lib/easing/easing.min.js')}}"></script>
+        <script src="{{asset('blog-assets/lib/owlcarousel/owl.carousel.min.js')}}"></script>
+    
+        <!-- Contact Javascript File -->
+        <script src="{{asset('blog-assets/mail/jqBootstrapValidation.min.js')}}"></script>
+        <script src="{{asset('blog-assets/mail/contact.js')}}"></script>
+    
+        <!-- Template Javascript -->
+        <script src="{{asset('blog-assets/js/main.js')}}"></script>
+
+
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
         <script src="{{asset('website-assets/lib/wow/wow.min.js')}}"></script>

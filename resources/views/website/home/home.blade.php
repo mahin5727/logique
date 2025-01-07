@@ -21,7 +21,7 @@
                 <div class="row" >
                     <div class="col-12 p-5 py-5 mt-5 ">
                         <div class="text-center wow fadeInDown">
-                            <h1 class="display-6 mt-lg-4 pb-5 animated fadeIn mb-4 " style="color: white; font-weight:500">Web Development & <br> Digital Marketing <span style="color: #309203e0; font-weight:800; border-bottom:3px solid #3eba04e0 ">Agency</span></h1>
+                            <h1 class="display-6 mt-lg-4 pb-5 animated fadeIn mb-4 " style="color: white !important; font-weight:500">Web Development & <br> Digital Marketing <span style="color: #309203e0; font-weight:800; border-bottom:3px solid #3eba04e0 ">Agency</span></h1>
                         </div>
                         <div class="overflow-hidden d-flex wow fadeInUp justify-content-center" style="visibility: visible;">
                             <div class="container-fluid">

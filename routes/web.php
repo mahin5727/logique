@@ -47,10 +47,4 @@ Route::get('/wordpress',[OfficeController::class,'index'])->name('office');
 Route::get('/uiux-design',[UiuxController::class,'index'])->name('uiux');
 Route::get('/mobile-apps',[MobileAppsController::class,'index'])->name('mobile-apps');
 
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+ 

@@ -53,6 +53,13 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+h1, h2, h3, h4, h5, h6, 
+.h1, .h2, .h3, .h4, .h5, .h6{
+  color: #1b5302 !important;
+}
+
+
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;

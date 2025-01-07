@@ -30,7 +30,7 @@ class AdminBlogController extends Controller
         if ($request->hasFile('blog_image')) {
             $image = $request->file('blog_image'); // Get the uploaded file
             $image_name = time() . '.' . $image->getClientOriginalExtension(); // Generate a unique name
-            $image_url = $image->storeAs('uploads/blogs', $image_name, 'public'); // Store in public disk
+            $image_url = 'storage/' . $image->storeAs('uploads/blogs', $image_name, 'public');
         } else {
             $image_url = null; 
         }

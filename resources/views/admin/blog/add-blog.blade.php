@@ -20,26 +20,29 @@
                     <div class=" col-12">
                         <div class="form-group">
                             <label for="first-name-column">Blog Title</label>
-                            <input type="text" id="first-name-column" class="form-control" placeholder="Blog Title" value="" name="blog_title" />
+                            <input type="text" id="first-name-column" class="form-control" placeholder="Blog Title" value="{{old('blog_title')}}" name="blog_title" />
                         </div>
                     </div> 
                     <div class="col-md-6 mb-1">
                         <label>Blog Category</label>
-                        <select class="select2 form-control form-control-lg" name="blog_category">
+                        <select class="select2 form-control form-control-lg" value="{{old('blog_category')}}" name="blog_category">
                             <option value="Technology">Technology</option>
+                            <option value="Astrology">Astrology</option>
+                            <option value="Health">Health</option>
+                            <option value="Business">Business</option>
                         </select>
                     </div>
                     <div class="col-12">
                         <div class="form-group">
                             <label for="first-name-column">Blog Description</label>
-                            <input type="text" id="first-name-column" class="form-control" placeholder="Blog Description" value="" name="blog_description" />
+                            <input type="text" id="first-name-column" class="form-control" placeholder="Blog Description" value="{{old('blog_description')}}" name="blog_description" />
                         </div>
                     </div>  
 
                     <div class="col-6">
                         <div class="form-group">
                             <label for="city-column">Blog Image</label>
-                            <input type="file" name="blog_image" data-default-file=""  data-max-file-size="2M" data-allowed-file-extensions="png jpg jpeg" class="form-control  @error('blog_image') is-invalid @enderror file-input" >
+                            <input type="file" name="blog_image" value="{{old('blog_image')}}" data-default-file=""  data-max-file-size="2M" data-allowed-file-extensions="png jpg jpeg" class="form-control  @error('blog_image') is-invalid @enderror file-input" >
                             @error('blog_image')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
@@ -51,7 +54,7 @@
                     <div class="col-12">
                         <div class="form-group w-100">
                             <label for="first-name-column">Blog</label>
-                            <textarea  type="text" id="content" class="form-control w-100 @error('blog') has-danger @enderror" placeholder="SubTitle" name="blog"></textarea>
+                            <textarea  type="text" id="content" class="form-control w-100 @error('blog') has-danger @enderror" placeholder="SubTitle" value="{{old('blog')}}" name="blog"></textarea>
                             @error('blog')
                                 <span class="text-danger" role="alert">
                                     <strong>{{$message}}</strong>
@@ -63,7 +66,7 @@
                     <div class="col-12">
                         <div class="form-group">
                             <label for="first-name-column">Tags</label>
-                            <input type="text" id="first-name-column" class="form-control" placeholder="Tags" value="" name="tags" />
+                            <input type="text" id="first-name-column" class="form-control" placeholder="Tags" value="{{old('tags')}}" name="tags" />
                         </div>
                     </div>  
                     <div class="col-12">

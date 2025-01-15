@@ -26,10 +26,18 @@ use App\Http\Controllers\admin\AdminBlogController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/admin/blogs ',[AdminBlogController::class,'index'])->name('view-blogs');
+Route::get('/admin/blogs',[AdminBlogController::class,'index'])->name('view-blogs');
 Route::get('/admin/add-blog',[AdminBlogController::class,'addblog'])->name('add-blog');
+Route::get('/admin/edit-blog/{id}',[AdminBlogController::class,'editblog'])->name('edit-blog');
+Route::get('/admin/delete-blog/{id}',[AdminBlogController::class,'delblog'])->name('delete-blog');
 Route::post('/admin/save-blog',[AdminBlogController::class,'saveblog'])->name('save-blog');
+Route::post('/admin/update-blog',[AdminBlogController::class,'updateblog'])->name('update-blog');
 Route::get('/admin/dashboard',[DashboardController::class,'index'])->name('dashboard');
+Route::get('/admin/add-category',[AdminBlogController::class,'addcategory'])->name('add-category');
+Route::get('/admin/category',[AdminBlogController::class,'category'])->name('category');
+Route::get('/admin/delete-category/{id}',[AdminBlogController::class,'delcategory'])->name('delete-category');
+Route::post('/admin/save-category',[AdminBlogController::class,'savecategory'])->name('save-category');
+
 Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('/team',[TeamController::class,'index'])->name('team');
 Route::get('/about',[AboutController::class,'index'])->name('about');

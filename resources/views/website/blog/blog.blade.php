@@ -4,7 +4,7 @@
      <div class="container-fluid header bg-custom px-0">
         <div class="row g-0 p-a container-fluid d-flex justify-content-center mt-5 pt-5 flex-column-reverse flex-md-row">
             <div class="col-md-12 p-5 align-items-center mt-lg-5">
-                <h1 class="display-4 text-center text-white wow animated fadeIn mb-4">BLogs</h1>
+                <h1 class="display-4 text-center text-white wow animated fadeIn mb-4">Blogs</h1>
                 <nav aria-label="breadcrumb align-items-center animated fadeIn">
                     <ol class="breadcrumb justify-content-center text-uppercase" style="background: transparent">
                         <li class="breadcrumb-item  text-center"><a class="text-white" href="{{route('home')}}">Home</a></li>
@@ -20,35 +20,39 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
+                @foreach ($categories as $category)
                 <div class="row">
                     <div class="col-12">
                         <div class="d-flex align-items-center justify-content-between bg-light py-2 px-4 mb-3">
-                            <h3 class="m-0">Technology</h3>
+                            <h3 class="m-0">{{$category->category}}</h3>
                             {{-- <a class="text-secondary font-weight-medium text-decoration-none" href="">View All</a> --}}
                         </div>
                     </div>
-                    @foreach ($techblogs as $techblog)
+                    @foreach ($blogs as $blog)
+                    @if($blog->blog_category == $category->category)
                     <div class="col-lg-6">
                         <div class="position-relative mb-3">
-                            <img class="img-fluid w-100" src="{{asset($techblog->blog_image)}}" style="object-fit: cover;">
+                            <img class="img-fluid w-100" src="{{asset($blog->blog_image)}}" style="object-fit: cover;">
                             <div class="overlay position-relative bg-light">
                                 <div class="mb-2" style="font-size: 14px;">
-                                    <a href="{{route('blog-detail', $techblog->id)}}">{{$techblog->blog_category}}</a>
+                                    <a href="{{route('blog-detail', $blog->id)}}">{{$blog->blog_category}}</a>
                                     <span class="px-1">/</span>
-                                    <span>{{$techblog->created_at}}</span>
+                                    <span>{{$blog->created_at}}</span>
                                 </div>
-                                <a class="h4" href="{{route('blog-detail', $techblog->id)}}">{{$techblog->title}}</a>
-                                <p class="m-0">{{$techblog->description}}</p>
+                                <a class="h4" href="{{route('blog-detail', $blog->id)}}">{{$blog->title}}</a>
+                                <p class="m-0">{{$blog->description}}</p>
                             </div>
                         </div>
                     </div> 
+                    @endif
                     @endforeach
                 </div>
-                <div class="row">
+                @endforeach
+                {{-- <div class="row">
                     <div class="col-12">
                         <div class="d-flex align-items-center justify-content-between bg-light py-2 px-4 mb-3">
                             <h3 class="m-0">Astrology</h3>
-                            {{-- <a class="text-secondary font-weight-medium text-decoration-none" href="">View All</a> --}}
+                            <a class="text-secondary font-weight-medium text-decoration-none" href="">View All</a>
                         </div>
                     </div>
                     @foreach ($astroblogs as $astroblog)
@@ -67,7 +71,7 @@
                         </div>
                     </div> 
                     @endforeach
-                </div>
+                </div> --}}
                 {{-- <div class="mb-3">
                     <a href=""><img class="img-fluid w-100" src="{{asset('blog-assets/img/ads-700x70.jpg')}}" alt=""></a>
                 </div> --}}

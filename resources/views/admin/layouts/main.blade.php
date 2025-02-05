@@ -30,6 +30,10 @@
     <link rel="stylesheet" type="text/css" href="{{asset('app-assets/vendors/css/tables/datatable/buttons.bootstrap4.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('app-assets/vendors/css/tables/datatable/rowGroup.bootstrap4.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('app-assets/vendors/css/pickers/flatpickr/flatpickr.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('app-assets/vendors/css/extensions/sweetalert2.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('app-assets/css/plugins/extensions/ext-component-sweet-alerts.css')}}">
+    
+    
     {{-- Extra-End --}}
 
     <!-- BEGIN: Vendor CSS-->
@@ -117,11 +121,11 @@
         <div class="shadow-bottom"></div>
         <div class="main-menu-content">
             <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
-                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="home"></i><span class="menu-title text-truncate" data-i18n="Dashboards">Dashboards</span></a>
+                <li class=" nav-item {{Route::is('dashboard') ? 'active' : ''}}"><a class="d-flex align-items-center" href="{{route('dashboard')}}"><i data-feather="home"></i><span class="menu-title text-truncate" data-i18n="Dashboards">Dashboards</span></a>
                 </li>
-                <li class=" nav-item"><a class="d-flex align-items-center" href="{{route('view-blogs')}}"><i data-feather="home"></i><span class="menu-title text-truncate" data-i18n="blogs" >Blogs</span></a>
+                <li class=" nav-item {{Route::is('view-blogs') || Route::is('add-blog') || Route::is('edit-blog') ? 'active' : ''}}"><a class="d-flex align-items-center " href="{{route('view-blogs')}}"><i data-feather="home"></i><span class="menu-title text-truncate" data-i18n="blogs" >Blogs</span></a>
                 </li>
-                <li class=" nav-item"><a class="d-flex align-items-center" href="{{route('category')}}"><i data-feather="home"></i><span class="menu-title text-truncate" data-i18n="blogs" >Category</span></a>
+                <li class=" nav-item {{Route::is('category') || Route::is('add-category')  ? 'active' : ''}}"><a class="d-flex align-items-center" href="{{route('category')}}"><i data-feather="home"></i><span class="menu-title text-truncate" data-i18n="blogs" >Category</span></a>
                 </li>
                 <li class=" nav-item"><a class="d-flex align-items-center" href="#"><i data-feather="file-text"></i><span class="menu-title text-truncate" data-i18n="Invoice">Invoice</span></a>
                     <ul class="menu-content">
@@ -174,6 +178,7 @@
     <script src="{{asset('app-assets/js/scripts/pages/app-ecommerce-wishlist.js')}}"></script>
     <!-- END: Page JS-->
     <script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
+    <script src="{{asset('app-assets/vendors/js/extensions/sweetalert2.all.min.js')}}"></script>
 
     <script src="{{asset('app-assets/vendors/js/tables/datatable/jquery.dataTables.min.j')}}s"></script>
     <script src="{{asset('app-assets/vendors/js/tables/datatable/datatables.buttons.min.js')}}"></script>

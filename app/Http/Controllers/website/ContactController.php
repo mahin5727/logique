@@ -29,6 +29,19 @@ class ContactController extends Controller
         return back()->with(['success' => 'Your request has been submitted']);
     }
 
+    public function quote(Request $request){
+        $this->validate($request, [
+            'email' => ['required']
+        ]);
+        Contact::create([
+            'name' => 'null',
+            'email' => $request->email,
+            'subject' => 'this is the quote request',
+            'message' => 'null'
+        ]);
+        return back()->with(['success' => 'Your request has been submitted']);
+    }
+
     public function posturl(Request $request)
     {
         $this->validate($request, [

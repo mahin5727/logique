@@ -5,8 +5,8 @@
 @section('keywords', 'mobile app development, custom mobile apps, iOS app development, Android app development, mobile app solutions, app development services, mobile application development  ')
 
 @section('content')
-                          <!-- Header Start -->
-                          <div class="container-fluid header bg-custom px-0">
+                        <!-- Header Start -->
+                        <div class="container-fluid header bg-custom px-0">
                             <div class="row g-0 p-a container-fluid d-flex justify-content-center mt-5 pt-5 flex-column-reverse flex-md-row">
                                 <div class="col-md-12 p-5 align-items-center mt-lg-5">
                                     <h1 class="display-4 text-center text-white wow animated fadeIn mb-4">Mobile Apps</h1>
@@ -20,7 +20,8 @@
                             </div>
                             <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="banner">
                         </div>
-                            <!-- Header End -->
+                        <!-- Header End -->
+
                         <div class="container py-5">
                             <div class="row gx-0 d-flex justify-content-center">
                                 <div class="col-lg-4 col-12 px-4">

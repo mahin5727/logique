@@ -31,6 +31,15 @@
                             @endforeach
                         </select>
                     </div>
+
+                    <div class="col-md-6 mb-1">
+                        <label>Featured Blog</label>
+                        <select class="select2 form-control form-control-lg" value="{{old('featured_status')}}" name="featured_status">
+                            <option value="1">Yes</option>
+                            <option value="0" selected>No</option>
+                        </select>
+                    </div>
+
                     <div class="col-12">
                         <div class="form-group">
                             <label for="first-name-column">Blog Description</label>

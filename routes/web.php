@@ -14,6 +14,7 @@ use App\Http\Controllers\website\MobileAppsController;
 use App\Http\Controllers\website\OfficeController;
 use App\Http\Controllers\website\UiuxController;
 use App\Http\Controllers\website\BlogController;
+use App\Http\Controllers\website\CommentsController;
 use App\Http\Controllers\admin\DashboardController;
 use App\Http\Controllers\admin\AdminBlogController;
 /*
@@ -45,6 +46,8 @@ Route::get('/blog',[BlogController::class,'index'])->name('blog');
 Route::get('/blog-detail/{id}',[BlogController::class,'blogdetail'])->name('blog-detail');
 Route::get('/contact',[ContactController::class,'index'])->name('contact');
 Route::post('/post-message',[ContactController::class,'postmessage'])->name('post-message');
+Route::post('/leave-a-comment/{id}',[CommentsController::class,'savecomment'])->name('leave-comment');
+Route::post('/send-quote',[ContactController::class,'quote'])->name('send-quote');
 Route::post('/post-url',[ContactController::class,'posturl'])->name('post-url');
 Route::get('/web-development-services',[WebDevController::class,'index'])->name('web-dev');
 Route::get('/seo-services',[SeoController::class,'index'])->name('seo');

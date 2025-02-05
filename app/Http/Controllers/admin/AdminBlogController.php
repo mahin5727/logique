@@ -46,6 +46,7 @@ class AdminBlogController extends Controller
         Blog::create([
             'title' => $request->blog_title,
             'blog_category' => $request->blog_category,
+            'featured_status' => $request->featured_status,
             'description' => $request->blog_description,
             'blog' => $request->blog,
             'blog_image' => $image_url,
@@ -80,6 +81,7 @@ class AdminBlogController extends Controller
         Blog::create([
             'title' => $request->blog_title,
             'blog_category' => $request->blog_category,
+            'featured_status' => $request->featured_status,
             'description' => $request->blog_description,
             'blog' => $request->blog,
             'blog_image' => $image_url,

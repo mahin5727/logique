@@ -5,8 +5,8 @@
 @section('keywords', 'API integration, API services, seamless API solutions, web integration services, custom API development, third-party API integration, website API integration')
     
 @section('content')
-                              <!-- Header Start -->
-                              <div class="container-fluid header bg-custom px-0">
+                            <!-- Header Start -->
+                            <div class="container-fluid header bg-custom px-0">
                                 <div class="row g-0 p-a container-fluid d-flex justify-content-center mt-5 pt-5 flex-column-reverse flex-md-row">
                                     <div class="col-md-12 p-5 align-items-center mt-lg-5">
                                         <h1 class="display-4 text-center text-white wow animated fadeIn mb-4">API Integration</h1>

@@ -5,25 +5,25 @@
 @section('keywords', 'web development, digital marketing, SEO services, Shopify development, API integration, WordPress design, UI/UX design, mobile app development, website design, e-commerce solutions, custom web development, SEO experts, digital marketing agency')
 
 @section('content')
-               <!-- Header Start -->
-               <div class="container-fluid header bg-custom px-0">
-                <div class="row g-0 p-a container-fluid d-flex justify-content-center mt-5 pt-5 flex-column-reverse flex-md-row">
-                    <div class="col-md-12 p-5 align-items-center mt-lg-5">
-                        <h1 class="display-4 text-center text-white wow animated fadeIn mb-4">Our Team</h1>
-                        <nav aria-label="breadcrumb align-items-center animated fadeIn">
-                            <ol class="breadcrumb justify-content-center text-uppercase" style="background: transparent">
-                                <li class="breadcrumb-item  text-center"><a class="text-white" href="{{route('home')}}">Home</a></li>
-                                <li class="breadcrumb-item text-white text-center active" aria-current="page">Team</li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-                <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="banner">
+    <!-- Header Start -->
+    <div class="container-fluid header bg-custom px-0">
+        <div class="row g-0 p-a container-fluid d-flex justify-content-center mt-5 pt-5 flex-column-reverse flex-md-row">
+            <div class="col-md-12 p-5 align-items-center mt-lg-5">
+                <h1 class="display-4 text-center text-white wow animated fadeIn mb-4">Our Team</h1>
+                <nav aria-label="breadcrumb align-items-center animated fadeIn">
+                    <ol class="breadcrumb justify-content-center text-uppercase" style="background: transparent">
+                        <li class="breadcrumb-item  text-center"><a class="text-white" href="{{route('home')}}">Home</a></li>
+                        <li class="breadcrumb-item text-white text-center active" aria-current="page">Team</li>
+                    </ol>
+                </nav>
             </div>
-            <!-- Header End -->
+        </div>
+        <img class="img-fluid slider height"  src="{{asset('website-assets/img/images/banner_new.jpeg')}}" alt="banner">
+    </div>
+    <!-- Header End -->
 
-      <!-- Team Start -->
-      <div class="container-xxl py-5">
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
         <div class="container">
             <div class="container-xxl py-5">
                 <div class="container">
